@@ -33,7 +33,7 @@ body {
   min-width: 320px;
   min-height: 100vh;
   position: relative;
-    background-color: #000000;
+    background-color: #ffffff;
     z-index: 0; 
 }
 
@@ -44,7 +44,8 @@ body::before {
   left: 0;
   right: 0;
   bottom: 0;
-  background: url('./assets/appFondo.jpg') center/cover no-repeat;
+  background: url('./assets/fondo.jpg') center/cover no-repeat;
+  background-size: 100%;
   opacity: 0.1;
   z-index: -1;
 }

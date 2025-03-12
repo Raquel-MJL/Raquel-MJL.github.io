@@ -129,12 +129,7 @@ button:focus-visible {
   }
 }
 
-.webTitle{
-  color:rgb(141, 22, 22);
-  font-family:'Eagle Lake';
-  font-size: 250%;
-  line-height: 1.2; /*En el responsive puede llegar a montarse la letra*/
-}
+
 
 /* @layer base {
   * {

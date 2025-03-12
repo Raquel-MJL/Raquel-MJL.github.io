@@ -26,7 +26,7 @@ const Section = ({ title, conjuros, backgroundColor = [] }) => {
                                     <p><strong>Clases:</strong> {conjuro.clases}</p>
                                     <div> {/*Para añadir saltos de línea en el contenido largo del array en sectionData.js - Información*/}
                                         <strong>Información:</strong>
-                                        {conjuro.informacion.split('\n').map((line, index) => (
+                                        {conjuro.informacion.split('*').map((line, index) => (
                                             <>
                                                 <p key={index}>{line}</p>
                                                 <br /> {/* Deja una línea en blanco entre párrafos */}

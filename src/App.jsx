@@ -6,11 +6,11 @@ import {Hechizos} from './data/sectionData';
 
 function App() {
   const [count, setCount] = useState(0)
-
+  Hechizos.reverse();
   return (
     <>
-      <div className="container mx-auto px-4 py-8">
-        <h1 className="webTitle text-3xl font-bold text-center mb-8">Conjuros de D&D</h1>
+      <div className="mx-auto px-4 py-8">
+        <h1 className="webTitle text-center mb-8">Conjuros de D&D</h1>
         
         <div className="mx-auto">
           {Hechizos.map((sectionData) => (

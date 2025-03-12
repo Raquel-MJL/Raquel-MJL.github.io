@@ -1,3 +1,4 @@
+import {React} from 'react';
 import { useState, useRef } from 'react';
 
 const ModalButton = ({ 
@@ -37,10 +38,10 @@ const ModalButton = ({
       {isModalOpen && (
         <div 
           className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center p-4 z-50"
-          onClick={handleOverlayClick} // Añadido aquí
+          onClick={handleOverlayClick} 
         >
           <div 
-            ref={modalRef} // Añadida referencia aquí
+            ref={modalRef} 
             className="bg-white rounded-lg shadow-lg w-full max-w-md mx-auto overflow-hidden"
           >
             {/* Modal header */}

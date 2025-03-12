@@ -1,18 +1,46 @@
-import { ModalButton } from '../components/button/button'
-import {botonesInfo} from '../data/buttonData'
+import { ModalButton } from '../components/button/button';
+import {React} from 'react';
 
-const Section = ({title}) => {
+
+const Section = ({ title, conjuros = [] }) => {
     return (
-        <section className="w-[95%] mx-auto bg-gray-200 rounded-lg p-5 my-4 ">
-             <h2 className="text-xl font-bold text-left mb-4">{title}</h2>
-             <div className="bg-white rounded p-4 shadow-sm">
-             <ModalButton title={botonesInfo[0].texto} modalContent={(botonesInfo[0].componentes)+(botonesInfo[0].tiempoDeLanzamiento)+(botonesInfo[0].alcance)+(botonesInfo[0].duracion)+(botonesInfo[0].ataque)+(botonesInfo[0].duracion)+(botonesInfo[0].clases)+(botonesInfo[0].duracion)+(botonesInfo[0].informacion)}>             
-            </ModalButton>
-    
-
+        <section className="w-[95%] mx-auto bg-gray-200 rounded-lg p-5 my-4">
+            <h2 className="text-xl font-bold text-left mb-4">{title}</h2>
+            <div className="bg-white rounded p-4 shadow-sm">
+                {conjuros.length > 0 ? (
+                    <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-2">
+                        {conjuros.map((conjuro, index) => (
+                            <ModalButton 
+                                key={index} 
+                                title={conjuro.texto} 
+                                modalContent={
+                                    <>
+                                    <p><strong>Componentes:</strong> {conjuro.componentes}</p>
+                                    <p><strong>Tiempo de Lanzamiento:</strong> {conjuro.tiempoDeLanzamiento}</p>
+                                    <p><strong>Alcance:</strong> {conjuro.alcance}</p>
+                                    <p><strong>Duración:</strong> {conjuro.duracion}</p>
+                                    <p><strong>Ataque:</strong> {conjuro.ataque}</p>
+                                    <p><strong>Clases:</strong> {conjuro.clases}</p>
+                                    <div> {/*Para añadir saltos de línea en el contenido largo - Información*/}
+                                        <strong>Información:</strong>
+                                        {conjuro.informacion.split('\n').map((line, index) => (
+                                            <>
+                                                <p key={index}>{line}</p>
+                                                <br /> {/* Deja una línea en blanco entre párrafos */}
+                                            </>
+                                        ))}
+                                    </div>
+                                    </>
+                                }
+                            />
+                        ))}
+                    </div>
+                ) : (
+                    <p className="text-gray-500 italic">No hay conjuros disponibles para este nivel.</p>
+                )}
             </div>
         </section>
     );
 };
 
-export {Section}
+export { Section }

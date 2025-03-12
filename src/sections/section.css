@@ -1,8 +1,9 @@
 .modal-content {
     text-align: justify;  
-    padding: 1%;        
+    padding: 2%;        
     font-size: 16px;      
     line-height: 1.6;
+   
 }
 
 .modal-content p {

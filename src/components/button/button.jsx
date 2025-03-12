@@ -66,7 +66,7 @@ const ModalButton = ({
             </div>
             
             {/* Modal body */}
-            <div className="px-6 py-4">
+            <div className="px-6 py-4 modal-content">
               {modalContent}
             </div>
             

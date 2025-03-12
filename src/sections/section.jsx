@@ -16,7 +16,7 @@ const Section = ({ title, conjuros = [] }) => {
                                 key={index} 
                                 title={conjuro.texto} 
                                 modalContent={
-                                    <div  className="modal-content">
+                                    <div className="modal-content">
                                     <>
                                     <p><strong>Componentes:</strong> {conjuro.componentes}</p>
                                     <p><strong>Tiempo de Lanzamiento:</strong> {conjuro.tiempoDeLanzamiento}</p>

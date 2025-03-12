@@ -1,0 +1,10 @@
+.modal-content {
+    text-align: justify;  
+    padding: 1%;        
+    font-size: 16px;      
+    line-height: 1.6;
+}
+
+.modal-content p {
+    margin-bottom: 2%;  
+}

@@ -1,5 +1,7 @@
 import { ModalButton } from '../components/button/button';
 import {React} from 'react';
+import './section.css';
+
 
 
 const Section = ({ title, conjuros = [] }) => {
@@ -14,6 +16,7 @@ const Section = ({ title, conjuros = [] }) => {
                                 key={index} 
                                 title={conjuro.texto} 
                                 modalContent={
+                                    <div  className="modal-content">
                                     <>
                                     <p><strong>Componentes:</strong> {conjuro.componentes}</p>
                                     <p><strong>Tiempo de Lanzamiento:</strong> {conjuro.tiempoDeLanzamiento}</p>
@@ -31,6 +34,7 @@ const Section = ({ title, conjuros = [] }) => {
                                         ))}
                                     </div>
                                     </>
+                                    </div>
                                 }
                             />
                         ))}

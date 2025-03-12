@@ -7,7 +7,7 @@ export const Hechizos = [
         backgroundColor: '#D7EBE1',
         conjuros: [
             {
-                icono: "src/assets/agarreElectrizanteIcono.svg",
+                icono: "src/assets/cantrip/agarreElectrizanteIcono.svg",
                 texto: "Agarre electrizante",
                 componentes: "V,S",
                 tiempoDeLanzamiento: "1 acción",
@@ -18,7 +18,7 @@ export const Hechizos = [
                 informacion: "Un rayo surge de tu mano para golpear a una criatura que estás intentando tocar. Haz un ataque de conjuro cuerpo a cuerpo contra el objetivo. Tienes ventaja en la tirada de ataque si el objetivo lleva una armadura de metal. *Si impactas, el objetivo recibe 1d8 puntos de daño por relámpago y no puede realizar reacciones hasta el inicio de su siguiente turno.*El daño del conjuro aumenta en 1d8 cuando llegas al nivel 5 (2d8), al nivel 11 (3d8) y al nivel 17 (4d8)."
             },
             {
-                icono: "src/assets/burlaDanina.svg",
+                icono: "src/assets/cantrip/burlaDanina.svg",
                 texto: "Burla dañina",
                 componentes: "V",
                 tiempoDeLanzamiento: "1 acción",
@@ -30,7 +30,7 @@ export const Hechizos = [
             },
 
             {
-                icono: "src/assets/crearLlama.svg",
+                icono: "src/assets/cantrip/crearLlama.svg",
                 texto: "Crear llama",
                 componentes: "V,S",
                 tiempoDeLanzamiento: "1 acción",
@@ -42,7 +42,7 @@ export const Hechizos = [
             },
 
             {
-                icono: "src/assets/descargaFuego.svg",
+                icono: "src/assets/cantrip/descargaFuego.svg",
                 texto: "Descarga de fuego",
                 componentes: "V,S",
                 tiempoDeLanzamiento: "1 acción",
@@ -54,7 +54,7 @@ export const Hechizos = [
             },
 
             {
-                icono: "src/assets/descargaSobrenatural.svg",
+                icono: "src/assets/cantrip/descargaSobrenatural.svg",
                 texto: "Descarga sobrenatural",
                 componentes: "V,S",
                 tiempoDeLanzamiento: "1 acción",
@@ -66,7 +66,7 @@ export const Hechizos = [
             },
 
             {
-                icono: "src/assets/garrote.svg",
+                icono: "src/assets/cantrip/garrote.svg",
                 texto: "Garrote / Shillelagh",
                 componentes: "V,S,M (Muérdago, trébol y bastón)",
                 tiempoDeLanzamiento: "1 acción adicional",
@@ -78,7 +78,7 @@ export const Hechizos = [
             },
 
             {
-                icono: "src/assets/guidance.svg",
+                icono: "src/assets/cantrip/guidance.svg",
                 texto: "Guía",
                 componentes: "V,S",
                 tiempoDeLanzamiento: "1 acción",
@@ -90,7 +90,7 @@ export const Hechizos = [
             },
 
             {
-                icono: "src/assets/ilusionMenor.svg",
+                icono: "src/assets/cantrip/ilusionMenor.svg",
                 texto: "Ilusión menor",
                 componentes: "S, M (un poco de vellón)",
                 tiempoDeLanzamiento: "1 acción",
@@ -102,7 +102,7 @@ export const Hechizos = [
             },
 
             {
-                icono: "src/assets/impactoCertero.svg",
+                icono: "src/assets/cantrip/impactoCertero.svg",
                 texto: "Impacto certero",
                 componentes: "S",
                 tiempoDeLanzamiento: "1 acción",
@@ -114,7 +114,7 @@ export const Hechizos = [
             },
 
             {
-                icono: "src/assets/llamaSagrada.svg",
+                icono: "src/assets/cantrip/llamaSagrada.svg",
                 texto: "Llama Sagrada",
                 componentes: "V,S",
                 tiempoDeLanzamiento: "1 acción",
@@ -126,7 +126,7 @@ export const Hechizos = [
             },
 
             {
-                icono: "src/assets/lucesDanzantes.svg",
+                icono: "src/assets/cantrip/lucesDanzantes.svg",
                 texto: "Luces danzantes",
                 componentes: "V,S,M (fósforo o corteza de avellano de bruja o una luciérnaga) ",
                 tiempoDeLanzamiento: "1 acción",
@@ -138,7 +138,7 @@ export const Hechizos = [
             },
 
             {
-                icono: "src/assets/luz.svg",
+                icono: "src/assets/cantrip/luz.svg",
                 texto: "Luz",
                 componentes: "V, M (una luciérnaga o musgo fosforescente)",
                 tiempoDeLanzamiento: "1 acción",
@@ -150,7 +150,7 @@ export const Hechizos = [
             },
 
             {
-                icono: "src/assets/manoDeMago.svg",
+                icono: "src/assets/cantrip/manoDeMago.svg",
                 texto: "Mano de Mago",
                 componentes: "V, S",
                 tiempoDeLanzamiento: "1 acción",
@@ -162,7 +162,7 @@ export const Hechizos = [
             },
 
             {
-                icono: "src/assets/mensaje.svg",
+                icono: "src/assets/cantrip/mensaje.svg",
                 texto: "Mensaje",
                 componentes: "V, S, M (Fragmento de hilo de cobre)",
                 tiempoDeLanzamiento: "1 acción",
@@ -174,7 +174,7 @@ export const Hechizos = [
             },
 
             {
-                icono: "src/assets/piedadMoribundos.svg",
+                icono: "src/assets/cantrip/piedadMoribundos.svg",
                 texto: "Piedad con los moribundos",
                 componentes: "V, S",
                 tiempoDeLanzamiento: "1 acción",
@@ -185,7 +185,7 @@ export const Hechizos = [
                 informacion: "Tocas a una criatura viva que tenga 0 puntos de golpe. La criatura se estabiliza. Este conjuro no tiene efecto sobre no muertos ni constructos."
             },
             {
-                icono: "src/assets/prestidigitacion.svg",
+                icono: "src/assets/cantrip/prestidigitacion.svg",
                 texto: "Prestidigitación",
                 componentes: "V, S",
                 tiempoDeLanzamiento: "1 acción",
@@ -197,7 +197,7 @@ export const Hechizos = [
             },
 
             {
-                icono: "src/assets/rayoEscarcha.svg",
+                icono: "src/assets/cantrip/rayoEscarcha.svg",
                 texto: "Rayo de escarcha",
                 componentes: "V, S",
                 tiempoDeLanzamiento: "1 acción",
@@ -209,7 +209,7 @@ export const Hechizos = [
             },
 
             {
-                icono: "src/assets/reparar.svg",
+                icono: "src/assets/cantrip/reparar.svg",
                 texto: "Reparar",
                 componentes: "V, S, M (dos magnetitas)",
                 tiempoDeLanzamiento: "1 minuto",
@@ -221,7 +221,7 @@ export const Hechizos = [
             },
 
             {
-                icono: "src/assets/resistencia.svg",
+                icono: "src/assets/cantrip/resistencia.svg",
                 texto: "Resistencia",
                 componentes: "V, S, M (Capa en miniatura)",
                 tiempoDeLanzamiento: "1 acción",
@@ -233,7 +233,7 @@ export const Hechizos = [
             },
 
             {
-                icono: "src/assets/rociadaVenenosa.svg",
+                icono: "src/assets/cantrip/rociadaVenenosa.svg",
                 texto: "Rociada venenosa",
                 componentes: "V, S",
                 tiempoDeLanzamiento: "1 acción",
@@ -245,7 +245,7 @@ export const Hechizos = [
             },
 
             {
-                icono: "src/assets/saberDruidico.svg",
+                icono: "src/assets/cantrip/saberDruidico.svg",
                 texto: "Saber druídico",
                 componentes: "V, S",
                 tiempoDeLanzamiento: "1 acción",
@@ -257,7 +257,7 @@ export const Hechizos = [
             },
 
             {
-                icono: "src/assets/salpicaduraAcida.svg",
+                icono: "src/assets/cantrip/salpicaduraAcida.svg",
                 texto: "Salpicadura Ácida",
                 componentes: "V, S",
                 tiempoDeLanzamiento: "1 acción",
@@ -269,7 +269,7 @@ export const Hechizos = [
             },
 
             {
-                icono: "src/assets/taumaturgia.svg",
+                icono: "src/assets/cantrip/taumaturgia.svg",
                 texto: "Taumaturgia",
                 componentes: "V",
                 tiempoDeLanzamiento: "1 acción",
@@ -281,7 +281,7 @@ export const Hechizos = [
             },
 
             {
-                icono: "src/assets/toqueHelado.svg",
+                icono: "src/assets/cantrip/toqueHelado.svg",
                 texto: "Toque helado",
                 componentes: "V,S",
                 tiempoDeLanzamiento: "1 acción",
@@ -298,20 +298,143 @@ export const Hechizos = [
     {
         id: 2,
         nivel: "Nivel 1",
+        backgroundColor: '#B0D7C3',
         conjuros: [
 
             {
-                texto: "mikologddrby",
+                icono: "src/assets/nivel1/alarma.svg",
+                texto: "Alarma",
+                componentes: "V,S,M (Campanilla y alambre de plata fina)",
+                tiempoDeLanzamiento: "1 minuto",
+                alcance: "30 pies (area de 20)",
+                duracion: "8 horas",
+                ataque: "--",
+                clases: "Explorador y Mago",
+                informacion: "Activas una alarma contra intrusos. Elige una puerta, ventana o área dentro del alcance que no tenga más de 20 pies cúbicos. Hasta que el conjuro termine, una alarma te alerta cuando una criatura Diminuta o mayor toca o entra en el área protegida. Cuando lanzas el conjuro, puedes designar criaturas que no activarán la alarma. También eliges si la alarma es mental o audible.*Una alarma mental te alerta con un silbido en tu mente si estás a 1 milla o menos del área custodiada. Este silbido te despierta si estás durmiendo.*Una alarma audible produce el sonido de una campanilla durante 10 segundos a 60 pies o menos."
+            },
+
+            {
+                icono: "src/assets/nivel1/armaduraDeMago.svg",
+                texto: "Armadura de Mago",
+                componentes: "V,S,M (Cuero encurtido)",
+                tiempoDeLanzamiento: "1 acción",
+                alcance: "Toque",
+                duracion: "8 horas",
+                ataque: "--",
+                clases: "Hechicero y Mago",
+                informacion: "Tocas a una criatura voluntaria que no lleve armadura y una fuerza protectora mágica la rodea hasta que el conjuro termina. La CA base del objetivo pasa a ser 13 + su modificador por Destreza. El conjuro termina si el objetivo se pone una armadura o si, como acción, disipas el conjuro."
+            },
+
+            {
+                icono: "src/assets/nivel1/bendicion.svg",
+                texto: "Bendición",
+                componentes: "V,S,M (Gotas de agua bendita)",
+                tiempoDeLanzamiento: "1 acción",
+                alcance: "30 pies",
+                duracion: "Concentración 1 minuto",
+                ataque: "--",
+                clases: "Paladín y Clérigo",
+                informacion: "Bendices hasta a tres criaturas de tu elección dentro del alcance. Cuando un objetivo haga una tirada de ataque o de salvación antes de que termine el conjuro, puede tirar 1d4 y sumar el resultado a su tirada.*En niveles superiores. Cuando lanzas este conjuro usando un espacio de nivel 2 o superior, puedes elegir como objetivo a una criatura adicional por cada nivel por encima de 1."
+            },
+
+            {
+                icono: "src/assets/nivel1/buenasBayas.svg",
+                texto: "Buenas bayas",
+                componentes: "V,S,M (Ramito de muérdago)",
+                tiempoDeLanzamiento: "1 acción",
+                alcance: "Toques",
+                duracion: "24 horas",
+                ataque: "--",
+                clases: "Explorador y Druida",
+                informacion: "En tu mano aparecen hasta diez bayas imbuidas con magia mientras dura el conjuro. Una criatura puede usar su acción para comerse una baya. Comerse una baya hace que se recupere 1 punto de golpe y ofrece suficiente alimento como para mantener a una criatura durante 1 día.*Las bayas pierden su poder si no se consumen en 24 horas después de lanzar el conjuro."
+            },
+
+            {
+                icono: "src/assets/nivel1/caidaPluma.svg",
+                texto: "Caída de pluma",
+                componentes: "V,M (Pluma pequeña o plumón)",
+                tiempoDeLanzamiento: "1 reacción cuando tú o una criatura caéis",
+                alcance: "60 pies",
+                duracion: "1 minuto",
+                ataque: "--",
+                clases: "Bardo, Hechicero y Mago",
+                informacion: "Elige hasta cinco criaturas que estén cayendo dentro del alcance. Su velocidad de descenso se reduce hasta 60 pies por ronda hasta que el conjuro termine. Si la criatura aterriza antes de que termine el conjuro, no recibe daño a causa de la caída, puede aterrizar de pie y el conjuro termina para ella."
+            },
+
+            {
+                icono: "src/assets/nivel1/crearDestruirAgua.svg",
+                texto: "Crear o destruir agua",
+                componentes: "V,S,M (Gota de agua para crear o puñado de arena para destruir)",
+                tiempoDeLanzamiento: "1 acción",
+                alcance: "30 pies",
+                duracion: "Instantáneo",
+                ataque: "--",
+                clases: "Clérigo y Druida",
+                informacion: "Crear agua. Creas hasta 10 galones de agua limpia en un recipiente abierto dentro del alcance. De manera alternativa, el agua cae como lluvia en un cubo de 30 pies de lado dentro del alcance y extingue las llamas expuestas que haya en el área.*Destruir agua. Destruyes hasta 10 galones de agua en un recipiente abierto dentro del área. De manera alternativa, también puedes destruir una niebla en un cubo de 30 pies de lado dentro del alcance.*En niveles superiores. Cuando lanzas este conjuro usando un espacio de conjuro de nivel 2 o superior, creas o destruyes 10 galones de agua adicionales, o el tamaño del cubo aumenta en 5 pies por cada nivel por encima de 1."
+            },
+
+            {
+                icono: "src/assets/nivel1/curarHeridas.svg",
+                texto: "Curar heridas",
                 componentes: "V,S",
                 tiempoDeLanzamiento: "1 acción",
                 alcance: "Toque",
                 duracion: "Instantáneo",
-                ataque: "Cuerpo a cuerpo 1d8 relámpago",
-                clases: "Hechicero y Mago",
-                informacion: "Un rayo surge de tu mano para golpear a una criatura que estás intentando tocar. Haz un ataque de conjuro cuerpo a cuerpo contra el objetivo. Tienes ventaja en la tirada de ataque si el objetivo lleva una armadura de metal. Si impactas, el objetivo recibe 1d8 puntos de daño por relámpago y no puede realizar reacciones hasta el inicio de su siguiente turno.El daño del conjuro aumenta en 1d8 cuando llegas al nivel 5 (2d8), al nivel 11 (3d8) y al nivel 17 (4d8)."
+                ataque: "--",
+                clases: "Bardo, Clérigo, Druida, Explorador, Paladín",
+                informacion: "Una criatura que tocas recupera un número de puntos de golpe igual a 1d8 + tu modificador por característica para lanzar conjuros. Este conjuro no tiene efecto ni en no muertos ni en constructos.*En niveles superiores. Cuando lanzas este conjuro usando un espacio de conjuro de nivel 2 o superior, la curación aumentan 1d8 por cada nivel por encima del nivel 1."
             },
+
+            {
+                icono: "src/assets/nivel1/detectarBienMal.svg",
+                texto: "Detectar el bien y el mal",
+                componentes: "V,S",
+                tiempoDeLanzamiento: "1 acción",
+                alcance: "Personal",
+                duracion: "Concentración 10 minutos",
+                ataque: "--",
+                clases: "Clérigo, Paladín",
+                informacion: "Mientras dura el conjuro, sabes si hay alguna aberración, celestial, elemental, fatal, infernal o no muerto a 30 pies o menos de ti, así como dónde se encuentra. Del mismo modo, sabes si hay algún lugar u objeto a 30 pies o menos de ti que haya sido consagrado o profanado.*El conjuro puede penetrar la mayoría de las barreras, pero no a partir de 1 pie de piedra, 1 pulgada de metal común, una lámina de plomo o 3 pies de madera o tierra."
+            },
+
+            {
+                icono: "src/assets/nivel1/detectarMagia.svg",
+                texto: "Detectar magia",
+                componentes: "V,S",
+                tiempoDeLanzamiento: "1 acción",
+                alcance: "Personal",
+                duracion: "Concentración 10 minutos",
+                ataque: "--",
+                clases: "Bardo, Clérigo, Druida, Explorador, Hechicero, Mago y Paladín",
+                informacion: "Mientras dura el conjuro, sientes la presencia de la magia hasta a 30 pies de ti. Si sientes alguna magia, puedes usar tu acción para ver una débil aura alrededor de cualquier criatura u objeto visible dentro del área que la tenga, y puedes averiguar de qué escuela es, si la tiene.*El conjuro puede penetrar la mayoría de las barreras, pero no a partir de 1 pie de piedra, 1 pulgada de metal común, una lámina de plomo o 3 pies de madera o tierra."
+            },
+
+            {
+                icono: "src/assets/nivel1/detectarVenenoEnfermedad.svg",
+                texto: "Detectar venenos y enfermedades",
+                componentes: "V,S,M (Una hoja de tejo)",
+                tiempoDeLanzamiento: "1 acción",
+                alcance: "Personal",
+                duracion: "Concentración 10 minutos",
+                ataque: "--",
+                clases: "Clérigo, Druida, Explorador y Paladín",
+                informacion: "Mientras dura el conjuro, puedes sentir la presencia y la localización de veneno, criaturas venenosas y enfermedades a 30 pies de ti o menos. También puedes identificar el tipo de veneno, criatura venenosa o enfermedad en cada caso.*El conjuro puede penetrar la mayoría de las barreras, pero no a partir de 1 pie de piedra, 1 pulgada de metal común, una lámina de plomo o 3 pies de madera o tierra."
+            },
+
+            {
+                icono: "src/assets/nivel1/discoFlotante.svg",
+                texto: "Disco flotante de Tenser",
+                componentes: "V,S,M (Una gota de mercurio)",
+                tiempoDeLanzamiento: "1 acción",
+                alcance: "30 pies",
+                duracion: "1 hora",
+                ataque: "--",
+                clases: "Mago",
+                informacion: "Este conjuro crea un plano de fuerza circular y horizontal, de 3 pies de diámetro y 1 pulgada de ancho, que flota 3 pies en un espacio sin ocupar de tu elección que puedas ver dentro del alcance. El disco permanece ahí mientras dura el conjuro y puede aguantar hasta 500 libras. Si se coloca más peso sobre él, el conjuro termina, y todo lo que haya encima del disco cae al suelo.*El disco permanece inmóvil mientras estés a 20 pies o menos de él. Si te alejas más, el disco te sigue para permanecer a 20 pies de ti. Puede moverse por terreno desigual, subir o bajar escaleras o pendientes y similares, pero no puede salvar un desnivel de 10 pies o más. Por ejemplo, el disco no puede bajar a un hoyo de 10 pies de profundidad ni tampoco salir de él si se creó en el fondo del mismo.*Si te alejas más de 100 pies del disco (normalmente porque este no es capaz de rodear un obstáculo para seguirte), el conjuro termina."
+            },
+
         ],
-        backgroundColor: '#B0D7C3'
+        
 
     },
 

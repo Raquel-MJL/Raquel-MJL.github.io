@@ -1,7 +1,7 @@
 .modal-content {
     text-align: justify;  
     padding: 2%;        
-    font-size: 16px;      
+    font-size: 18px;      
     line-height: 1.6;
    
 }
@@ -9,3 +9,8 @@
 .modal-content p {
     margin-bottom: 2%;  
 }
+
+.section-title{
+    font-family:'Eagle Lake';
+}
+

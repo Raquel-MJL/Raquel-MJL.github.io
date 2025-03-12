@@ -7,7 +7,7 @@ import './section.css';
 const Section = ({ title, conjuros = [] }) => {
     return (
         <section className="w-[95%] mx-auto bg-gray-200 rounded-lg p-5 my-4">
-            <h2 className="text-xl font-bold text-left mb-4">{title}</h2>
+            <h2 className="section-title text-xl font-bold text-left mb-4">{title}</h2>
             <div className="bg-white rounded p-4 shadow-sm">
                 {conjuros.length > 0 ? (
                     <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-2">

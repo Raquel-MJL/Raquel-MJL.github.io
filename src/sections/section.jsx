@@ -15,6 +15,7 @@ const Section = ({ title, conjuros, backgroundColor = [] }) => {
                             <ModalButton 
                                 key={index} 
                                 title={conjuro.texto}
+                                backgroundColor={backgroundColor}
                                 modalContent={
                                     <div className="modal-content">
                                     <>

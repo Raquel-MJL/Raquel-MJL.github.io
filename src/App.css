@@ -31,7 +31,7 @@
 }
 
 .webTitle{
-  color:rgb(141, 22, 22);
+  color:#1F3E2E;
   font-family:'Eagle Lake';
   font-size: 220%;
   line-height: 1.2; /*En el responsive puede llegar a montarse la letra*/

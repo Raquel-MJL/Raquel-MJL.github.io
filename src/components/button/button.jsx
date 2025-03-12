@@ -6,6 +6,7 @@ const ModalButton = ({
   title, 
   modalContent, 
   buttonClassName = "", 
+  backgroundColor =backgroundColor,
   modalTitle = title,
 }) => {
   const [isModalOpen, setIsModalOpen] = useState(false);
@@ -27,7 +28,8 @@ const ModalButton = ({
       {/* Botón con icono y título */}
       <button
         onClick={openModal}
-        className={`flex items-center gap-2 px-4 py-2 bg-blue-600 text-white rounded-md hover:bg-blue-700 transition-colors ${buttonClassName}`}
+        style={{backgroundColor:backgroundColor,}}
+        className={`flex items-center gap-2 px-4 py-2 bg-green-600 text-white rounded-md hover:bg-blue-700 transition-colors ${buttonClassName}`}
         type="button"
       >
         {icon && <span className="w-5 h-5">{icon}</span>}

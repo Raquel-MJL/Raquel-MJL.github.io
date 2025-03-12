@@ -4,17 +4,17 @@ import './section.css';
 
 
 
-const Section = ({ title, conjuros = [] }) => {
+const Section = ({ title, conjuros, backgroundColor = [] }) => {
     return (
-        <section className="w-[95%] mx-auto bg-gray-200 rounded-lg p-5 my-4">
-            <h2 className="section-title text-xl font-bold text-left mb-4">{title}</h2>
+    <section className="mx-auto bg-gray-200 rounded-lg p-5 my-4" style={{ backgroundColor: backgroundColor }}>
+        <h2 className="sectionTitle text-left mb-4">{title}</h2>
             <div className="bg-white rounded p-4 shadow-sm">
                 {conjuros.length > 0 ? (
                     <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-2">
                         {conjuros.map((conjuro, index) => (
                             <ModalButton 
                                 key={index} 
-                                title={conjuro.texto} 
+                                title={conjuro.texto}
                                 modalContent={
                                     <div className="modal-content">
                                     <>
@@ -24,9 +24,9 @@ const Section = ({ title, conjuros = [] }) => {
                                     <p><strong>Duración:</strong> {conjuro.duracion}</p>
                                     <p><strong>Ataque:</strong> {conjuro.ataque}</p>
                                     <p><strong>Clases:</strong> {conjuro.clases}</p>
-                                    <div> {/*Para añadir saltos de línea en el contenido largo - Información*/}
+                                    <div> {/*Para añadir saltos de línea en el contenido largo del array en sectionData.js - Información*/}
                                         <strong>Información:</strong>
-                                        {conjuro.informacion.split('\n').map((line, index) => (
+                                        {conjuro.informacion.split('*').map((line, index) => (
                                             <>
                                                 <p key={index}>{line}</p>
                                                 <br /> {/* Deja una línea en blanco entre párrafos */}

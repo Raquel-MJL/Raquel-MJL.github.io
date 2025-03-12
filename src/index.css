@@ -32,6 +32,21 @@ body {
   place-items: center;
   min-width: 320px;
   min-height: 100vh;
+  position: relative;
+    background-color: #000000;
+    z-index: 0; 
+}
+
+body::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: url('./assets/appFondo.jpg') center/cover no-repeat;
+  opacity: 0.1;
+  z-index: -1;
 }
 
 h1 {

@@ -16,6 +16,7 @@ const Section = ({ title, conjuros, backgroundColor = [] }) => {
                                 key={index} 
                                 title={conjuro.texto}
                                 backgroundColor={backgroundColor}
+                                icon={conjuro.icono && <img src={conjuro.icono} alt="" className="flex items-center w-10 h-10" />}
                                 modalContent={
                                     <div className="modal-content">
                                     <>

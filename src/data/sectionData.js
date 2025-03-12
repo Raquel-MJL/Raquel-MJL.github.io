@@ -6,6 +6,7 @@ export const Hechizos = [
         nivel: "Cantrip",
         conjuros: [
             {
+                icono: "src/assets/agarreElectrizanteIcono.svg",
                 texto: "Agarre electrizante",
                 componentes: "V,S",
                 tiempoDeLanzamiento: "1 acción",

@@ -2290,6 +2290,110 @@ export const Hechizos = [
                 ataque: "Contra salvación de Constitución 8d8 necrótico",
                 clases: "Brujo, Druida, Hechicero y Mago",
                 informacion: "La energía nigromántica anega a una criatura de tu elección dentro del alcance y le drena los humores y la vitalidad..."
+            },
+            {
+                texto: "Mastín fiel de Mordenkainen",
+                componentes: "V,S,M (un silbato de plata pequeño, un hueso y un hilo)",
+                tiempoDeLanzamiento: "1 acción",
+                alcance: "30 pies",
+                duracion: "8 horas",
+                ataque: "Cuerpo a cuerpo 4d8 perforante",
+                clases: "Mago",
+                informacion: "Conjuras un perro guardián espectral en un espacio sin ocupar que puedas ver dentro del alcance..."
+            },
+            {
+                texto: "Moldear la piedra",
+                componentes: "V,S,M (arcilla blanda, que debes modelar para convertirla más o menos en la forma que deseas del objeto de piedra)",
+                tiempoDeLanzamiento: "1 acción",
+                alcance: "Toque",
+                duracion: "Instantáneo",
+                clases: "Clérigo, Druida y Mago",
+                informacion: "Tocas un objeto de piedra de tamaño Mediano o más pequeño o una sección de piedra de no más de 5 pies en cualquier dimensión..."
+            },
+            {
+                texto: "Muro de fuego",
+                componentes: "V,S,M (un trocito de fósforo)",
+                tiempoDeLanzamiento: "1 acción",
+                alcance: "120 pies",
+                duracion: "Concentración 1 minuto",
+                ataque: "Contra salvación de Destreza 5d8 fuego",
+                clases: "Druida, Hechicero y Mago",
+                informacion: "Creas un muro de fuego en una superficie sólida dentro del alcance..."
+            },
+            {
+                texto: "Ojo arcano",
+                componentes: "V,S,M (un poco de pelo de murciélago)",
+                tiempoDeLanzamiento: "1 acción",
+                alcance: "30 pies",
+                duracion: "Concentración 1 hora",
+                clases: "Mago",
+                informacion: "Creas un ojo mágico e invisible dentro del alcance que planea en el aire mientras dura el conjuro..."
+            },
+            {
+                texto: "Piel pétrea",
+                componentes: "V,S,M (polvo de diamante de 100 po de valor, el cual consume el conjuro)",
+                tiempoDeLanzamiento: "1 acción",
+                alcance: "Toque",
+                duracion: "Concentración 1 hora",
+                clases: "Explorador, Druida, Hechicero y Mago",
+                informacion: "Este conjuro hace que la carne de una criatura voluntaria que toques sea tan dura como la piedra..."
+            },
+            {
+                texto: "Polimorfar",
+                componentes: "V,S,M (un capullo de oruga)",
+                tiempoDeLanzamiento: "1 acción",
+                alcance: "60 pies",
+                duracion: "Concentración 1 hora",
+                ataque: "Contra salvación de Sabiduría",
+                clases: "Bardo, Druida, Hechicero y Mago",
+                informacion: "Este conjuro transforma a una criatura que puedas ver dentro del alcance en una nueva forma..."
+            },
+            {
+                texto: "Puerta dimensional",
+                componentes: "V",
+                tiempoDeLanzamiento: "1 acción",
+                alcance: "500 pies",
+                duracion: "Instantáneo",
+                clases: "Bardo, Brujo, Hechicero y Mago",
+                informacion: "Te teleportas desde tu localización actual a cualquier otro lugar que desees dentro del alcance..."
+            },
+            {
+                texto: "Sanctasanctórum privado de Mordenkainen",
+                componentes: "V,S,M (una lámina de plomo, un trozo de cristal opaco, un fajo de algodón o de tela y crisolita en polvo)",
+                tiempoDeLanzamiento: "10 minutos",
+                alcance: "120 pies",
+                duracion: "24 horas",
+                clases: "Mago",
+                informacion: "Creas un área mágicamente segura dentro del alcance..."
+            },
+            {
+                texto: "Tentáculos negros de Evard",
+                componentes: "V,S,M (un tentáculo de un pulpo o calamar gigante)",
+                tiempoDeLanzamiento: "1 acción",
+                alcance: "90 pies",
+                duracion: "Concentración 1 minuto",
+                ataque: "Contra salvación de Destreza 3d6 contundente",
+                clases: "Mago",
+                informacion: "Unos tentáculos como el ébano se retuercen llenando un cuadrado del suelo de 20 pies que puedas ver dentro del alcance..."
+            },
+            {
+                texto: "Terreno alucinatorio",
+                componentes: "V,S,M (una piedra, una ramita y un fragmento de una planta de color verde)",
+                tiempoDeLanzamiento: "10 minutos",
+                alcance: "300 pies",
+                duracion: "24 horas",
+                clases: "Bardo, Brujo, Druida y Mago",
+                informacion: "Creas un terreno natural en un cubo de 150 pies dentro del alcance que parece, suena y huele como otro tipo de terreno natural..."
+            },
+            {
+                texto: "Tormenta de hielo",
+                componentes: "V,S,M (una pizca de polvo y unas gotas de agua)",
+                tiempoDeLanzamiento: "1 acción",
+                alcance: "300 pies",
+                duracion: "Instantáneo",
+                ataque: "Contra salvación de Destreza 2d8+4d6",
+                clases: "Druida, Hechicero y Mago",
+                informacion: "Cae granizo en un cilindro de 20 pies de radio y 40 de altura cuyo centro se encuentra en un punto dentro del alcance..."
             }
         ]
     },

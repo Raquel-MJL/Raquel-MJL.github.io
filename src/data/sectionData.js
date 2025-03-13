@@ -2097,9 +2097,8 @@ export const Hechizos = [
                 tiempoDeLanzamiento: "1 acción",
                 alcance: "Personal",
                 duracion: "Instantáneo",
-                ataque: "Ninguno",
                 clases: "Clérigo",
-                informacion: "Tu magia y tu ofrenda te ponen en contacto con un dios o con el sirviente de un dios al que puedes hacer una única pregunta concerniente a una meta, evento o actividad específica que ocurrirá en un plazo máximo de 7 días..."
+                informacion: "Tu magia y tu ofrenda te ponen en contacto con un dios o con el sirviente de un dios al que puedes hacer una única pregunta concerniente a una meta, evento o actividad específica que ocurrirá en un plazo máximo de 7 días. El director de juego te dará una respuesta veraz, la cual puede ser una frase corta, una rima críptica o un augurio. El conjuro no tiene en cuenta cualquier circunstancia posible que pueda cambiar el resultado, como si se lanza un conjuro adicional o si se gana o se pierde un compañero. Si lanzas el conjuro dos o más veces antes de terminar tu siguiente descanso prolongado, hay un 25 % de probabilidades acumulativas de obtener una lectura aleatoria cada vez que lances el conjuro después de la primera vez. El director de juego hace esta tirada en secreto."
             },
             {
                 texto: "Asesino fantasmal",
@@ -2107,9 +2106,10 @@ export const Hechizos = [
                 tiempoDeLanzamiento: "1 acción",
                 alcance: "120 pies",
                 duracion: "Concentración 1 minuto",
+                tiradaDeSalvacion: "Sabiduría niega",
                 ataque: "Contra salvación 4d10 psíquico",
                 clases: "Mago",
-                informacion: "Accedes a las pesadillas de una criatura que puedas ver dentro del alcance y creas una manifestación ilusoria de sus miedos más profundos, que solo puede ver esa criatura..."
+                informacion: "Accedes a las pesadillas de una criatura que puedas ver dentro del alcance y creas una manifestación ilusoria de sus miedos más profundos, que solo puede ver esa criatura. El objetivo debe hacer una tirada de salvación de Sabiduría. Si falla, queda asustado mientras dura el conjuro. Al final de cada uno de sus turnos antes de que termine el conjuro, el objetivo debe superar una tirada de salvación de Sabiduría para no recibir 4d10 puntos de daño psíquico. Si supera la tirada, el conjuro termina. En niveles superiores. Cuando lanzas este conjuro usando un espacio de conjuro de nivel 5 o superior, el daño aumenta en 1d10 por cada nivel por encima de 5."
             },
             {
                 texto: "Cofre oculto de Leomund",
@@ -2117,9 +2117,8 @@ export const Hechizos = [
                 tiempoDeLanzamiento: "1 acción",
                 alcance: "Toque",
                 duracion: "Instantáneo",
-                ataque: "Ninguno",
                 clases: "Mago",
-                informacion: "Escondes un cofre y todo su contenido en el Plano Etéreo..."
+                informacion: "Escondes un cofre y todo su contenido en el Plano Etéreo. Debes tocar el cofre y la réplica en miniatura que sirve como componente material. El cofre puede contener hasta 12 pies cúbicos de un material inerte (3×2×2 pies). Mientras el cofre permanezca en el Plano Etéreo, puedes usar una acción y tocar la réplica para retirar el cofre, que aparece en un lugar sin ocupar en el suelo a 5 pies o menos de ti. Puedes volver a enviar el cofre al Plano Etéreo usando una acción y tocando tanto el cofre como la réplica. Después de 60 días, hay un 5 % de probabilidades por día (acumulativo) de que el efecto del conjuro termine. El efecto termina si vuelves a lanzar el conjuro, si la réplica del cofre se destruye o si eliges terminar el conjuro como acción. Si el conjuro termina y el cofre está en el Plano Etéreo, se pierde irremediablemente."
             },
             {
                 texto: "Compulsión",
@@ -2127,9 +2126,9 @@ export const Hechizos = [
                 tiempoDeLanzamiento: "1 acción",
                 alcance: "30 pies",
                 duracion: "Concentración 1 minuto",
-                ataque: "Ninguno",
+                tiradaDeSalvacion: "Sabiduría niega",
                 clases: "Bardo",
-                informacion: "Las criaturas que elijas que estén dentro del alcance y que puedan escucharte deben hacer una tirada de salvación de Sabiduría..."
+                informacion: "Las criaturas que elijas que estén dentro del alcance y que puedan escucharte deben hacer una tirada de salvación de Sabiduría, que superan automáticamente si no pueden quedar hechizadas. Si falla, el objetivo queda afectado por este conjuro. Hasta que el conjuro termine, puedes usar una acción adicional en cada uno de tus turnos para designar una dirección horizontal que vaya a ti. Cada objetivo afectado debe usar todo su movimiento disponible para moverse en esa dirección durante su siguiente turno. Puede realizar su acción antes de moverse. Después de moverse en ese sentido, puede hacer otra tirada de salvación de Sabiduría para intentar terminar con el efecto. El objetivo no está obligado a moverse hacia un peligro que es obviamente letal, como un fuego o un socavón, pero provocará ataques de oportunidad al moverse en la dirección designada."
             },
             {
                 texto: "Confusión",
@@ -2137,9 +2136,9 @@ export const Hechizos = [
                 tiempoDeLanzamiento: "1 acción",
                 alcance: "90 pies (10 pies)",
                 duracion: "Concentración 1 minuto",
-                ataque: "Contra salvación de Sabiduría",
-                clases: "Bardo, Druida, Hechicero y Mago",
-                informacion: "Este conjuro distorsiona la mente de las criaturas creando ilusiones y provocando acciones incontroladas..."
+                tiradaDeSalvacion: "Sabiduría niega",
+                clases: "Bardo, Druida, Hechicero, Mago",
+                informacion: "Este conjuro distorsiona la mente de las criaturas creando ilusiones y provocando acciones incontroladas. Todas las criaturas que se encuentren en una esfera de 10 pies de radio, cuyo centro está en un lugar de tu elección dentro del alcance, deben superar una tirada de salvación de Sabiduría cuando lances este conjuro para no quedar afectadas por él. Un objetivo afectado no puede reaccionar y debe tirar 1d10 al principio de cada uno de sus turnos para determinar su comportamiento. \n1- La criatura usa todo su movimiento para moverse en una dirección al azar. Para determinar dicha dirección, tira 1d8 y asigna una dirección a cada una de las caras del dado. La criatura no realiza ninguna acción este turno.\n2-6- La criatura no se mueve ni realiza acciones este turno.\n7-8- La criatura usa su acción para realizar un ataque cuerpo a cuerpo contra una criatura determinada al azar dentro de su alcance. Si no hay ninguna criatura dentro de su alcance, no hace nada durante este turno.\n9-10- La criatura puede actuar y moverse con normalidad. Al final de cada turno, un objetivo afectado puede hacer una tirada de salvación de Sabiduría. Si tiene éxito, el efecto termina. En niveles superiores. Cuando lanzas este conjuro usando un espacio de conjuro de nivel 5 o superior, el radio de la esfera aumenta en 5 pies por cada nivel por encima de 4."
             },
             {
                 texto: "Conjurar elementales menores",
@@ -2147,9 +2146,8 @@ export const Hechizos = [
                 tiempoDeLanzamiento: "1 minuto",
                 alcance: "90 pies",
                 duracion: "Concentración 1 hora",
-                ataque: "Ninguno",
                 clases: "Druida y Mago",
-                informacion: "Convocas elementales que aparecen en un espacio sin ocupar que puedas ver dentro del alcance..."
+                informacion: "Convocas elementales que aparecen en un espacio sin ocupar que puedas ver dentro del alcance. Puedes elegir entre un elemental con un valor de desafío igual a 2 o menos, dos elementales con un valor de desafío igual a 1 o menos, cuatro elementales con un valor de desafío igual a 1/2 o menos, u ocho elementales con un valor de desafío igual a 1/4 o menos. Los elementales convocados son amistosos y obedecen órdenes verbales. En niveles superiores, puedes convocar el doble o el triple de criaturas según el nivel de conjuro usado."
             },
             {
                 texto: "Conjurar seres de los bosques",
@@ -2157,9 +2155,8 @@ export const Hechizos = [
                 tiempoDeLanzamiento: "1 acción",
                 alcance: "60 pies",
                 duracion: "Concentración 1 hora",
-                ataque: "Ninguno",
                 clases: "Explorador y Druida",
-                informacion: "Convocas criaturas feéricas que aparecen en espacios sin ocupar que puedas ver dentro del alcance..."
+                informacion: "Convocas criaturas feéricas que aparecen en espacios sin ocupar que puedas ver dentro del alcance. Puedes elegir entre una criatura feérica con un valor de desafío igual a 2 o menos, dos criaturas feéricas con un valor de desafío igual a 1 o menos, cuatro criaturas feéricas con un valor de desafío igual a 1/2 o menos, u ocho criaturas feéricas con un valor de desafío igual a 1/4 o menos. Estas criaturas son amistosas y obedecen tus órdenes. En niveles superiores, puedes convocar el doble o el triple de criaturas según el nivel de conjuro usado."
             },
             {
                 texto: "Controlar agua",
@@ -2167,9 +2164,8 @@ export const Hechizos = [
                 tiempoDeLanzamiento: "1 acción",
                 alcance: "300 pies",
                 duracion: "Concentración 10 minutos",
-                ataque: "Ninguno",
                 clases: "Clérigo, Druida y Mago",
-                informacion: "Hasta que el conjuro acaba, controlas el agua corriente que haya dentro del área que elijas..."
+                informacion: "Controlas el agua en un cubo de hasta 100 pies de lado. Puedes elegir entre los siguientes efectos: Apartar las aguas (creando una fosa con murallas de agua), Inundación (haciendo que el nivel del agua aumente hasta 20 pies), Redirigir la corriente (modificando el flujo del agua en cualquier dirección) o Remolino (creando un vórtice que atrapa criaturas y objetos). Puedes cambiar de efecto en cada turno."
             },
             {
                 texto: "Destierro",
@@ -2179,7 +2175,7 @@ export const Hechizos = [
                 duracion: "Concentración 1 minuto",
                 ataque: "Contra salvación de Carisma",
                 clases: "Paladín, Brujo, Clérigo, Hechicero y Mago",
-                informacion: "Intentas enviar a una criatura que puedas ver dentro del alcance a otro plano de existencia..."
+                informacion: "Intentas enviar a una criatura a otro plano de existencia. Si el objetivo falla la tirada de salvación, es desterrado a un semiplano inofensivo o a su plano natal (si no es del plano actual). Si el conjuro se mantiene durante 1 minuto y la criatura es de otro plano, no regresa. En niveles superiores, puedes desterrar a más criaturas."
             },
             {
                 texto: "Dominar bestia",
@@ -2189,7 +2185,7 @@ export const Hechizos = [
                 duracion: "Concentración 1 minuto",
                 ataque: "Contra salvación de Sabiduría",
                 clases: "Druida y Hechicero",
-                informacion: "Intentas embaucar a una bestia que puedas ver dentro del alcance..."
+                informacion: "Embaucas a una bestia para que quede hechizada y siga tus órdenes telepáticas. Puedes darle órdenes generales o controlarla totalmente con tu acción. Si recibe daño, puede repetir la tirada de salvación. En niveles superiores, la duración del conjuro aumenta."
             },
             {
                 texto: "Escudo de fuego",
@@ -2197,9 +2193,9 @@ export const Hechizos = [
                 tiempoDeLanzamiento: "1 acción",
                 alcance: "Personal",
                 duracion: "10 minutos",
-                ataque: "2d8 de daño por fuego o frío",
+                ataque: "Contra salvación 2d8 fuego o frío",
                 clases: "Mago",
-                informacion: "Unas tenues llamas envuelven tu cuerpo mientras dura el conjuro..."
+                informacion: "Tu cuerpo se envuelve en llamas, emitiendo luz brillante y proporcionando resistencia al daño por frío o fuego. Además, cuando una criatura te ataca en combate cuerpo a cuerpo, recibe 2d8 de daño por el tipo de escudo elegido."
             },
             {
                 texto: "Esfera elástica de Otiluke",
@@ -2209,7 +2205,7 @@ export const Hechizos = [
                 duracion: "Concentración 1 minuto",
                 ataque: "Contra salvación de Destreza",
                 clases: "Mago",
-                informacion: "Una esfera de fuerza brillante encierra a una criatura o un objeto de un tamaño Grande o más pequeño dentro del alcance..."
+                informacion: "Encierra a una criatura u objeto en una esfera de fuerza impenetrable. Nada puede entrar o salir, aunque la criatura puede respirar dentro. La esfera puede moverse con empujones y el conjuro Desintegrar puede destruirla."
             },
             {
                 texto: "Fabricar",
@@ -2217,9 +2213,8 @@ export const Hechizos = [
                 tiempoDeLanzamiento: "10 minutos",
                 alcance: "120 pies",
                 duracion: "Instantáneo",
-                ataque: "Ninguno",
                 clases: "Mago",
-                informacion: "Conviertes materia prima en productos del mismo material..."
+                informacion: "Conviertes materia prima en productos del mismo material. Puedes fabricar un objeto de tamaño Grande o más pequeño (hasta un cubo de 10 pies) si tienes la cantidad de materia prima suficiente. Si trabajas con metal, piedra u otra sustancia mineral, el objeto fabricado no puede ser mayor que Mediano. No puedes crear objetos mágicos ni aquellos que requieran habilidades artesanales especializadas sin la competencia adecuada."
             },
             {
                 texto: "Guardia contra la muerte",
@@ -2227,9 +2222,8 @@ export const Hechizos = [
                 tiempoDeLanzamiento: "1 acción",
                 alcance: "Toque",
                 duracion: "8 horas",
-                ataque: "Ninguno",
                 clases: "Paladín y Clérigo",
-                informacion: "Tocas a una criatura y le concedes una forma de protegerse contra la muerte..."
+                informacion: "Tocas a una criatura y le otorgas protección contra la muerte. La primera vez que sus puntos de golpe se reducirían a 0, se mantiene con 1 punto en su lugar y el conjuro termina. Si el objetivo es afectado por un efecto que lo mataría instantáneamente sin daño, este efecto se anula y el conjuro finaliza."
             },
             {
                 texto: "Guardián de la fe",
@@ -2237,9 +2231,9 @@ export const Hechizos = [
                 tiempoDeLanzamiento: "1 acción",
                 alcance: "30 pies",
                 duracion: "8 horas",
-                ataque: "Contra salvación de Destreza 20 radiante",
+                ataque: "Contra salvación de Destreza",
                 clases: "Clérigo",
-                informacion: "Un guardián espectral Grande aparece y flota en un espacio sin ocupar de tu elección..."
+                informacion: "Invocas un guardián espectral que ocupa un espacio dentro del alcance. El guardián inflige 20 puntos de daño radiante a cualquier criatura hostil que se acerque a 10 pies de él. Si la criatura supera la tirada de salvación de Destreza, recibe la mitad del daño. El guardián desaparece tras infligir un total de 60 puntos de daño."
             },
             {
                 texto: "Insecto gigante",
@@ -2247,9 +2241,8 @@ export const Hechizos = [
                 tiempoDeLanzamiento: "1 acción",
                 alcance: "30 pies",
                 duracion: "Concentración 10 minutos",
-                ataque: "Ninguno",
                 clases: "Druida",
-                informacion: "Transformas hasta a diez ciempiés, tres arañas, cinco avispas o un escorpión dentro del alcance en una versión gigante..."
+                informacion: "Transformas hasta a diez ciempiés, tres arañas, cinco avispas o un escorpión en versiones gigantes de sí mismos mientras dure el conjuro. Estas criaturas obedecen tus órdenes y actúan en tu turno. Permanecen en su forma gigante hasta que sus puntos de golpe lleguen a 0 o hasta que termines el efecto del conjuro."
             },
             {
                 texto: "Invisibilidad mejorada",
@@ -2257,9 +2250,8 @@ export const Hechizos = [
                 tiempoDeLanzamiento: "1 acción",
                 alcance: "Toque",
                 duracion: "Concentración 1 minuto",
-                ataque: "Ninguno",
                 clases: "Bardo, Hechicero y Mago",
-                informacion: "Tú o una criatura que tocas se vuelve invisible hasta que el conjuro termina..."
+                informacion: "Tú o una criatura que toques se vuelve invisible hasta que el conjuro termine. Cualquier objeto que el objetivo lleve puesto o transporte también es invisible mientras esté en su cuerpo."
             },
             {
                 texto: "Libertad de movimiento",
@@ -2267,9 +2259,8 @@ export const Hechizos = [
                 tiempoDeLanzamiento: "1 acción",
                 alcance: "Toque",
                 duracion: "1 hora",
-                ataque: "Ninguno",
                 clases: "Explorador, Bardo, Clérigo y Druida",
-                informacion: "Tocas a una criatura voluntaria y le otorgas libertad de movimiento..."
+                informacion: "Tocas a una criatura y le otorgas inmunidad a efectos que reduzcan su velocidad, la paralicen o la aprisionen. Además, puede gastar 5 pies de movimiento para liberarse automáticamente de restricciones como grilletes o presas. Estar bajo el agua no le impone penalizadores."
             },
             {
                 texto: "Localizar criatura",
@@ -2277,9 +2268,8 @@ export const Hechizos = [
                 tiempoDeLanzamiento: "1 acción",
                 alcance: "Personal",
                 duracion: "Concentración 1 hora",
-                ataque: "Ninguno",
                 clases: "Explorador, Paladín, Bardo, Clérigo, Druida y Mago",
-                informacion: "Describe o nombra a una criatura que te sea familiar. Sientes la dirección en la que se encuentra..."
+                informacion: "Describe o nombra a una criatura familiar y sentirás su dirección si está a 1000 pies o menos de ti. Si la criatura se está moviendo, sabrás hacia dónde se mueve. No puede detectar criaturas ocultas bajo efectos como Polimorfar o separadas por una corriente de agua de al menos 10 pies de ancho."
             },
             {
                 texto: "Marchitar",
@@ -2287,9 +2277,9 @@ export const Hechizos = [
                 tiempoDeLanzamiento: "1 acción",
                 alcance: "30 pies",
                 duracion: "Instantáneo",
-                ataque: "Contra salvación de Constitución 8d8 necrótico",
+                ataque: "Contra salvación de Constitución",
                 clases: "Brujo, Druida, Hechicero y Mago",
-                informacion: "La energía nigromántica anega a una criatura de tu elección dentro del alcance y le drena los humores y la vitalidad..."
+                informacion: "Canalizas energía nigromántica para drenar la vitalidad de una criatura. Si falla la tirada de salvación de Constitución, recibe 8d8 puntos de daño necrótico, o la mitad si tiene éxito. Las criaturas planta tienen desventaja en la tirada y reciben el daño máximo. Las plantas no mágicas mueren automáticamente."
             },
             {
                 texto: "Mastín fiel de Mordenkainen",
@@ -2787,7 +2777,7 @@ export const Hechizos = [
                 alcance: "60 pies",
                 duracion: "Instantáneo",
                 clases: "Clérigo",
-                informacion: "Suplicas ayuda a una entidad cósmica, que envía un *celestial, elemental o infernal* para asistirte. *Puedes pedir una criatura específica, pero la entidad decide qué enviar.* *Debes negociar un pago por sus servicios.* *El coste es de aproximadamente 100 po por minuto, 1000 po por hora o 10 000 po por día, aunque puede variar.* *Si la tarea es peligrosa o contraria a los intereses de la criatura, puede negarse.*"
+                informacion: "Suplicas ayuda a una entidad cósmica, que envía un celestial, elemental o infernal para asistirte. Puedes pedir una criatura específica, pero la entidad decide qué enviar. Debes negociar un pago por sus servicios. El coste es de aproximadamente 100 po por minuto, 1000 po por hora o 10 000 po por día, aunque puede variar. Si la tarea es peligrosa o contraria a los intereses de la criatura, puede negarse."
             },
             {
                 texto: "Baile irresistible de Otto",
@@ -2796,7 +2786,7 @@ export const Hechizos = [
                 alcance: "30 pies",
                 duracion: "Concentración 1 minuto",
                 clases: "Bardo y Mago",
-                informacion: "El objetivo *comienza a bailar sin control.* *Debe usar todo su movimiento para bailar sin moverse del sitio y tiene desventaja en salvaciones de Destreza y ataques.* *Las criaturas tienen ventaja en ataques contra él.* *Puede hacer una salvación de Sabiduría en su turno para acabar con el conjuro.*"
+                informacion: "El objetivo comienza a bailar sin control. Debe usar todo su movimiento para bailar sin moverse del sitio y tiene desventaja en salvaciones de Destreza y ataques. Las criaturas tienen ventaja en ataques contra él. Puede hacer una salvación de Sabiduría en su turno para acabar con el conjuro."
             },
             {
                 texto: "Barrera de cuchillas",
@@ -2807,7 +2797,7 @@ export const Hechizos = [
                 tiradaDeSalvacion: "Destreza mitad",
                 ataque: "Contra salvación 6d10 cortante",
                 clases: "Clérigo",
-                informacion: "Creas una *pared de cuchillas giratorias* de hasta *100 pies de largo, 20 pies de alto y 5 pies de grosor.* *Causa 6d10 de daño cortante a quienes la crucen.* *Proporciona tres cuartos de cobertura y convierte el área en terreno difícil.*"
+                informacion: "Creas una pared de cuchillas giratorias de hasta 100 pies de largo, 20 pies de alto y 5 pies de grosor. Causa 6d10 de daño cortante a quienes la crucen. Proporciona tres cuartos de cobertura y convierte el área en terreno difícil."
             },
             {
                 texto: "Círculo de muerte",
@@ -2818,7 +2808,7 @@ export const Hechizos = [
                 tiradaDeSalvacion: "Constitución mitad",
                 ataque: "Contra salvación 8d6 necrótico",
                 clases: "Brujo, Hechicero y Mago",
-                informacion: "Lanzas una *esfera de energía negativa* de *60 pies de radio.* *Las criaturas dentro deben hacer una salvación de Constitución.* Si fallan, reciben *8d6 de daño necrótico,* la mitad si tienen éxito. *Si usas un espacio de nivel 7 o superior, el daño aumenta en 2d6 por nivel adicional.*"
+                informacion: "Lanzas una esfera de energía negativa de 60 pies de radio. Las criaturas dentro deben hacer una salvación de Constitución. Si fallan, reciben 8d6 de daño necrótico, la mitad si tienen éxito. Si usas un espacio de nivel 7 o superior, el daño aumenta en 2d6 por nivel adicional."
             },
             {
                 texto: "Conjurar feérico",
@@ -2827,7 +2817,7 @@ export const Hechizos = [
                 alcance: "90 pies",
                 duracion: "Concentración 1 hora",
                 clases: "Brujo y Druida",
-                informacion: "Convocas *una criatura feérica de VD 5 o un espíritu feérico con forma de bestia de VD 6.* *Obedece tus órdenes y desaparece si pierde todos sus puntos de golpe.* *Si pierdes la concentración, se vuelve hostil.* *Cada nivel superior aumenta en 1 el VD máximo permitido.*"
+                informacion: "Convocas una criatura feérica de VD 5 o un espíritu feérico con forma de bestia de VD 6. Obedece tus órdenes y desaparece si pierde todos sus puntos de golpe. Si pierdes la concentración, se vuelve hostil. Cada nivel superior aumenta en 1 el VD máximo permitido."
             },
             {
                 texto: "Contingencia",
@@ -2836,7 +2826,7 @@ export const Hechizos = [
                 alcance: "Personal",
                 duracion: "10 días",
                 clases: "Mago",
-                informacion: "Preparas un *conjuro de nivel 5 o menor* que se activará bajo una condición establecida. *Debe tener un tiempo de lanzamiento de 1 acción y ser solo para ti.* *Cuando se cumpla la condición, el conjuro se activa automáticamente.* *Solo puedes tener una Contingencia activa a la vez.*"
+                informacion: "Preparas un conjuro de nivel 5 o menor que se activará bajo una condición establecida. Debe tener un tiempo de lanzamiento de 1 acción y ser solo para ti. Cuando se cumpla la condición, el conjuro se activa automáticamente. Solo puedes tener una Contingencia activa a la vez."
             },
             {
                 texto: "Crear muerto viviente",
@@ -2845,7 +2835,7 @@ export const Hechizos = [
                 alcance: "10 pies",
                 duracion: "Instantáneo",
                 clases: "Brujo, Clérigo y Mago",
-                informacion: "*Solo puede lanzarse de noche.* *Reanima hasta tres cadáveres humanoides como necrófagos.* *Puedes darles órdenes mentales mientras estén a 120 pies de ti.* *Duran 24 horas, pero puedes reafirmar el control antes de que termine ese tiempo.* *Con niveles superiores, puedes crear más necrófagos o criaturas más poderosas.*"
+                informacion: "Solo puede lanzarse de noche. Reanima hasta tres cadáveres humanoides como necrófagos. Puedes darles órdenes mentales mientras estén a 120 pies de ti. Duran 24 horas, pero puedes reafirmar el control antes de que termine ese tiempo. Con niveles superiores, puedes crear más necrófagos o criaturas más poderosas."
             },
             {
                 texto: "Curar",
@@ -2854,7 +2844,7 @@ export const Hechizos = [
                 alcance: "60 pies",
                 duracion: "Instantáneo",
                 clases: "Clérigo y Druida",
-                informacion: "Elige a una criatura que puedas ver dentro del alcance. Recupera *70 puntos de golpe* y se cura de *ceguera, sordera y enfermedades.* No tiene efecto en *constructos ni no muertos.* *Con niveles superiores, recupera 10 puntos más por nivel adicional.*"
+                informacion: "Elige a una criatura que puedas ver dentro del alcance. Recupera 70 puntos de golpe y se cura de ceguera, sordera y enfermedades. No tiene efecto en constructos ni no muertos. Con niveles superiores, recupera 10 puntos más por nivel adicional."
             },
             {
                 texto: "Dañar",
@@ -2865,7 +2855,7 @@ export const Hechizos = [
                 tiradaDeSalvacion: "Constitución mitad",
                 ataque: "Contra salvación 14d6 necrótico",
                 clases: "Clérigo",
-                informacion: "Infliges *una enfermedad virulenta.* *El objetivo debe hacer una salvación de Constitución.* *Si falla, recibe 14d6 de daño necrótico.* *Su máximo de puntos de golpe se reduce por 1 hora igual al daño recibido.* *Cualquier efecto que cure enfermedades puede restaurar los puntos de golpe máximos antes de que pase el tiempo.*"
+                informacion: "Infliges una enfermedad virulenta. El objetivo debe hacer una salvación de Constitución. Si falla, recibe 14d6 de daño necrótico. Su máximo de puntos de golpe se reduce por 1 hora igual al daño recibido. Cualquier efecto que cure enfermedades puede restaurar los puntos de golpe máximos antes de que pase el tiempo."
             },
             {
                 texto: "De la carne a la piedra",
@@ -2875,7 +2865,7 @@ export const Hechizos = [
                 duracion: "Concentración 1 minuto",
                 tiradaDeSalvacion: "Constitución niega",
                 clases: "Brujo y Mago",
-                informacion: "Intentas convertir en piedra a una criatura de carne. *Debe hacer una salvación de Constitución.* *Si falla, queda apresada y repite la salvación al final de cada turno.* *Si falla 3 veces, queda petrificada.* *Si mantiene la petrificación hasta que termine la concentración, la transformación es permanente.*"
+                informacion: "Intentas convertir en piedra a una criatura de carne. Debe hacer una salvación de Constitución. Si falla, queda apresada y repite la salvación al final de cada turno. Si falla 3 veces, queda petrificada. Si mantiene la petrificación hasta que termine la concentración, la transformación es permanente."
             },
             {
                 texto: "Desintegrar",
@@ -2886,7 +2876,7 @@ export const Hechizos = [
                 tiradaDeSalvacion: "Destreza niega",
                 ataque: "Contra salvación 10d6+40 fuerza",
                 clases: "Hechicero y Mago",
-                informacion: "Lanzas un rayo verde que *desintegra criaturas u objetos.* *Si el objetivo falla su salvación de Destreza, recibe 10d6+40 de daño por fuerza.* *Si sus puntos de golpe llegan a 0, se convierte en polvo y solo puede revivir con Deseo o Resurrección verdadera.* *Objetos no mágicos también son destruidos.*"
+                informacion: "Lanzas un rayo verde que desintegra criaturas u objetos. Si el objetivo falla su salvación de Destreza, recibe 10d6+40 de daño por fuerza. Si sus puntos de golpe llegan a 0, se convierte en polvo y solo puede revivir con Deseo o Resurrección verdadera. Objetos no mágicos también son destruidos."
             },
             {
                 texto: "Encontrar el camino",
@@ -2895,7 +2885,7 @@ export const Hechizos = [
                 alcance: "Personal",
                 duracion: "Concentración 1 día",
                 clases: "Bardo, Clérigo y Druida",
-                informacion: "Este conjuro *te guía hasta un lugar específico en el mismo plano de existencia.* *No funciona para destinos móviles o imprecisos.* *Siempre sabes la distancia y dirección del destino y la ruta más corta para llegar.*"
+                informacion: "Este conjuro te guía hasta un lugar específico en el mismo plano de existencia. No funciona para destinos móviles o imprecisos. Siempre sabes la distancia y dirección del destino y la ruta más corta para llegar."
             },
             {
                 texto: "Esfera congelante de Otiluke",
@@ -2906,7 +2896,7 @@ export const Hechizos = [
                 tiradaDeSalvacion: "Constitución mitad",
                 ataque: "Contra salvación 10d6 frío",
                 clases: "Mago",
-                informacion: "Lanzas una *explosión de frío* de 60 pies de radio. *Las criaturas dentro deben hacer una salvación de Constitución.* *Si fallan, reciben 10d6 de daño por frío.* *Si golpea agua, la congela y atrapa criaturas en su superficie.* *El globo puede guardarse y lanzarse manualmente.* *Cada nivel adicional aumenta el daño en 1d6.*"
+                informacion: "Lanzas una explosión de frío de 60 pies de radio. Las criaturas dentro deben hacer una salvación de Constitución. Si fallan, reciben 10d6 de daño por frío. Si golpea agua, la congela y atrapa criaturas en su superficie. El globo puede guardarse y lanzarse manualmente. Cada nivel adicional aumenta el daño en 1d6."
             },
             {
                 texto: "Festín de héroes",
@@ -2915,7 +2905,7 @@ export const Hechizos = [
                 alcance: "30 pies",
                 duracion: "Instantáneo",
                 clases: "Clérigo y Druida",
-                informacion: "Creas un festín mágico para *hasta 12 criaturas.* *Se curan de venenos y enfermedades, ganan inmunidad al veneno y al miedo, ventaja en salvaciones de Sabiduría y 2d10 puntos de golpe adicionales.* *Dura 24 horas.*"
+                informacion: "Creas un festín mágico para hasta 12 criaturas. Se curan de venenos y enfermedades, ganan inmunidad al veneno y al miedo, ventaja en salvaciones de Sabiduría y 2d10 puntos de golpe adicionales. Dura 24 horas."
             },
             {
                 texto: "Globo de invulnerabilidad",
@@ -2924,7 +2914,7 @@ export const Hechizos = [
                 alcance: "Personal",
                 duracion: "Concentración 1 minuto",
                 clases: "Hechicero y Mago",
-                informacion: "Creas una *barrera mágica de 10 pies de radio* que bloquea todos los conjuros de nivel 5 o menor lanzados desde fuera. *Los conjuros más poderosos pueden atravesarla.* *Con niveles superiores, la barrera bloquea conjuros de nivel superior.*"
+                informacion: "Creas una barrera mágica de 10 pies de radio que bloquea todos los conjuros de nivel 5 o menor lanzados desde fuera. Los conjuros más poderosos pueden atravesarla. Con niveles superiores, la barrera bloquea conjuros de nivel superior."
             },
             {
                 texto: "Guardas y guardias",
@@ -3614,5 +3604,5 @@ export const Hechizos = [
                 informacion: "Creas una enorme tormenta mágica en un radio de 360 pies, con truenos, viento y relámpagos. Todas las criaturas debajo deben hacer una tirada de salvación de Constitución o recibir 2d6 de daño por trueno y quedar ensordecidas por 5 minutos. Cada ronda tiene efectos adicionales: Ronda 2: Lluvia ácida (1d6 de daño por ácido). Ronda 3: Seis rayos caen sobre seis objetivos (10d6 de daño por relámpago). Ronda 4: Granizo (2d6 de daño contundente). Rondas 5-10: Viento y lluvia helada (1d6 de daño por frío), el área se convierte en terreno difícil y ataques a distancia son imposibles."
             }
         ]
-    }
+      }
 ] 

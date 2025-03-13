@@ -1,27 +1,9 @@
-.test {
-  background-color: #D7EBE1;
-}
-
-.color2{
-  background-color: #B0D7C3;
-}
-.color3{
-  background-color: #9CCDB3;
-}
-.color4{
-  background-color: #74B995;
-}
-.color5{
-  background-color: #60AF86;
-}
-.color6{
-  background-color: #478D68;
-}
-.color7{  background-color: #3D795A;
-}
-.color8{  background-color: #33654B;
-}
-.color9{  background-color: #29513C;
-}
-.color10{  background-color: #1F3E2E;
-}
+#D7EBE1
+#C3E2D4
+#AFD9C7
+#9BCFBA
+#87C6AD
+#73BCA0
+#5FB393
+#4BA986
+#478D68

@@ -1515,17 +1515,115 @@ export const Hechizos = [
         nivel: "Nivel 3",
         backgroundColor: '#74B995',
         conjuros: [
-            {   icono: "src/assets/nivel3/zonaVerdad.svg",
-                texto: "Zona de verdad",
+            {   icono: "src/assets/nivel3/acelerar.svg",
+                texto: "Acelerar",
+                componentes: "V, S, M (Viruta de regaliz)",
+                tiempoDeLanzamiento: "1 acción",
+                alcance: "30 pies",
+                duracion: "Concentración 1 minuto",
+                ataque: "--",
+                clases: "Hechicero y Mago",
+                informacion: "Elige una criatura voluntaria que puedas ver dentro del alcance. Hasta que el conjuro termine, la velocidad del objetivo se duplica, consigue un bonificador de +2 a la CA, tiene ventaja en las tiradas de salvación de Destreza y consigue una acción adicional en cada uno de sus turnos. Esta acción solo se puede usar para realizar una acción de ataque (solo un ataque de arma), esprintar, retirarse, esconderse o usar un objeto.*Cuando el conjuro termina, el objetivo no puede moverse ni realizar acciones hasta después de su siguiente turno, ya que le invade una ola de letargo.",
+            },
+
+            {   icono: "src/assets/nivel3/animarMuertos.svg",
+                texto: "Animar muertos",
+                componentes: "V, S, M (Gota sangre, carne, polvo de huesos)",
+                tiempoDeLanzamiento: "1 minuto",
+                alcance: "10 pies",
+                duracion: "Instantáneo",
+                ataque: "--",
+                clases: "Clérigo y Mago",
+                informacion: "Este conjuro crea sirvientes no muertos. Elige una pila de huesos o un cadáver humanoide de tamaño Mediano o Pequeño dentro del alcance. El conjuro imbuye al objetivo con una repugnante imitación de vida y lo reanima como una criatura no muerta. El objetivo se convierte en un esqueleto si eliges huesos o en un zombi si eliges un cadáver (el director de juego determina las estadísticas de la criatura).*Una vez por turno, puedes usar una acción adicional para dar órdenes mentales a cualquier criatura que hayas creado con este conjuro si esta se encuentra a 60 pies o menos de ti (si controlas a varias criaturas, puedes dar órdenes a alguna o a todas ellas al mismo tiempo usando la misma orden para todas). Tú decides qué acción hará la criatura y adónde se moverá durante su siguiente turno, o puedes emitir una orden general, como proteger una habitación o un pasillo en particular. Si no emites ninguna orden, la criatura solo se defiende a sí misma contra las criaturas hostiles. Una vez se le ha dado una orden, la criatura la sigue hasta completar su tarea.*La criatura está bajo tu control durante 24 horas. Pasado este tiempo, deja de obedecer cualquier orden que le hayas dado. Para mantener el control de la criatura durante otras 24 horas, debes lanzarle el conjuro otra vez antes de que acaben las 24 horas actuales. Usar el conjuro de este modo reafirma el control sobre hasta cuatro criaturas que hayas animado de este modo, en lugar de animar a una nueva.*En niveles superiores. Cuando lanzas este conjuro usando un espacio de conjuro de nivel 4 o superior, animas o reafirmas el control sobre dos no muertos adicionales por cada nivel por encima de 3. Cada una de las criaturas debe venir de un cadáver o de una pila de huesos diferente.",
+            },
+
+            {   icono: "src/assets/nivel3/bolaFuego.svg",
+                texto: "Bola de fuego",
+                componentes: "V, S, M (Guano de murciélago y azufre)",
+                tiempoDeLanzamiento: "1 acción",
+                alcance: "150 pies (Área 20 pies)",
+                duracion: "Instantáneo",
+                ataque: "Contra salvación 8d6 fuego",
+                clases: "Hechicero y Mago",
+                informacion: "Un rayo brillante surge de tu dedo índice hasta un punto que elijas dentro del alcance y explota con un leve estruendo en un estallido de llamas. Todas las criaturas que se encuentren en una esfera de 20 pies de radio cuyo centro sea ese punto deben hacer una tirada de salvación de Destreza: si fallan, reciben 8d6 puntos de daño por fuego y, si tienen éxito, la mitad.*El fuego se propaga en las esquinas e incinera los objetos inflamables que se encuentren en el área y que nadie lleve puestos ni transporte.*En niveles superiores. Cuando lanzas este conjuro usando un espacio de conjuro de nivel 4 o superior, el daño aumenta en 1d6 por cada nivel por encima de 3.",
+            },
+
+            {   icono: "src/assets/nivel3/caminarSobreAgua.svg",
+                texto: "Caminar sobre el agua",
+                componentes: "V, S, M (Trozo de corcho)",
+                tiempoDeLanzamiento: "1 acción",
+                alcance: "30 pies",
+                duracion: "1 hora",
+                ataque: "--",
+                clases: "Clérigo, Druida, Explorador y Hechicero",
+                informacion: "Este conjuro concede la capacidad de moverse por cualquier superficie líquida (como agua, ácido, lodo, nieve, arenas movedizas o lava) como si fuera un terreno sólido inofensivo (caminar sobre lava fundida aún puede provocar daño debido al calor). Hasta tres criaturas voluntarias que puedas ver dentro del alcance consiguen esta capacidad mientras dure el conjuro.*Si tu objetivo es una criatura sumergida en un líquido, el conjuro saca al objetivo a la superficie del líquido a una velocidad de 60 pies por asalto.",
+            },
+
+            {   icono: "src/assets/nivel3/circuloMagico.svg",
+                texto: "Círculo mágico",
+                componentes: "V, S, M (Agua bendita o plata y hierro de 100po)",
+                tiempoDeLanzamiento: "1 minuto",
+                alcance: "10 pies (Área 10 pies)",
+                duracion: "1 hora",
+                ataque: "--",
+                clases: "Brujo, Clérigo, Mago y Paladín",
+                informacion: "Creas un cilindro de energía mágica de 10 pies de radio y 20 pies de altura cuyo centro se encuentra en un punto del suelo que puedas ver dentro del alcance. En la intersección del cilindro con el suelo u otra superficie aparecen unas runas brillantes.*Elige uno o más de los siguientes tipos de criaturas: celestiales, elementales, fatas, infernales y no muertos. El círculo afecta a una criatura del tipo elegido de los siguientes modos:*→ La criatura no puede entrar en el cilindro voluntariamente por medios no mágicos. Si la criatura intenta usar el teletransporte o el viaje intraplanar para hacerlo, primero debe superar una tirada de salvación de Carisma.*→ La criatura tiene desventaja en las tiradas de ataque contra objetivos que se encuentren dentro del cilindro.*→ Los objetivos que se encuentran dentro del cilindro no pueden quedar hechizados, asustados o poseídos por la criatura.*Cuando lanzas este conjuro, puedes decidir que su magia opere en el sentido inverso: evitando que una criatura de un tipo específico deje el cilindro y protegiendo a los objetivos que se encuentran fuera.*En niveles superiores. Cuando lances este conjuro usando un espacio de conjuro de nivel 4 o superior, la duración aumenta en 1 hora por cada nivel por encima de 3.",
+            },
+
+            {   icono: "src/assets/nivel3/clarividencia.svg",
+                texto: "Clarividencia",
+                componentes: "V, S, M (Foco 100po)",
+                tiempoDeLanzamiento: "10 minutos",
+                alcance: "5.000 pies",
+                duracion: "Concentración 10 minutos",
+                ataque: "--",
+                clases: "Bardo, Clérigo, Hechicero y Mago",
+                informacion: "Creas un sensor invisible en una localización que te es familiar (un lugar que hayas visitado o visto) o en una localización obvia que no te es familiar (como detrás de una puerta, en una esquina o en un bosquecillo), siempre que esté dentro del alcance (1 milla). El sensor permanece en el lugar mientras dura el conjuro y no se le puede atacar ni interactuar con él.*Cuando lanzas el conjuro, eliges ver o escuchar. Puedes usar el sentido que elijas a través del sensor como si estuvieras en ese lugar. Como acción, puedes cambiar entre ver y escuchar.*Una criatura que pueda ver el sensor (porque se beneficie de un conjuro de ver invisibilidad o posea visión verdadera, por ejemplo) contempla un orbe luminoso e intangible del tamaño de tu puño.",
+            },
+
+            {   icono: "src/assets/nivel3/conjurarAnimales.svg",
+                texto: "Conjurar animales",
                 componentes: "V, S",
                 tiempoDeLanzamiento: "1 acción",
-                alcance: "60 pies (Área 15 pies)",
-                duracion: "10 minutos",
+                alcance: "Personal",
+                duracion: "Concentración 1 hora",
                 ataque: "--",
-                clases: "Bardo, Clérigo, Paladín",
-                informacion: "Creas una zona mágica que te protege del engaño en una esfera de 15 pies de radio cuyo centro es un punto de tu elección dentro del alcance. Hasta que el conjuro termine, toda criatura que entre en el área del conjuro por primera vez en un turno o que empiece su turno ahí debe hacer una tirada de salvación de Carisma. Si falla, no puede decir una mentira deliberadamente mientras se encuentre dentro del radio. Tú sabes si falla o tiene éxito en la tirada de salvación.*La criatura afectada se da cuenta del conjuro y puede evitar responder preguntas a las que normalmente respondería con una mentira. Tal criatura puede dar respuestas evasivas siempre y cuando se mantenga en los límites de la verdad.",
+                clases: "Druida y Explorador",
+                informacion: "Convocas espíritus feéricos en forma de bestia que aparecen en lugares libres que puedas ver dentro del alcance. Elige una de las siguientes opciones:*→ Una bestia con un valor de desafío igual a 2 o menos.*→ Dos bestias con un valor de desafío igual a 1 o menos.*→ Cuatro bestias con un valor de desafío igual a 1/2 o menos.*→ Ocho bestias con un valor de desafío igual a 1/4 o menos.*Cada bestia se considera, además, feérica y desaparece cuando sus puntos de golpe se reducen a 0 o cuando el conjuro termina.*Las criaturas convocadas son amistosas hacia ti y tus compañeros. Tira iniciativa por ellas como si fueran un grupo que tiene sus propios turnos. Obedecen cualquier orden verbal que les des (no requiere que realices ninguna acción). Si no les das ninguna orden, se defienden de criaturas hostiles, pero, si no las hay, no realizan ninguna acción.*El director de juego determina las estadísticas de las criaturas.*En niveles superiores. Cuando lanzas este conjuro usando un espacio de un nivel superior determinado, aparecen más criaturas de las que elegiste: con un espacio de nivel 5 aparecen el doble, con nivel 7 el triple y con nivel 9 el cuádruple.",
             },
-        ],}
+
+            {   icono: "src/assets/nivel3/contrahechizo.svg",
+                texto: "Contrahechizo",
+                componentes: "S",
+                tiempoDeLanzamiento: "1 reacción cuando veas una criatura lanzar un conjuro",
+                alcance: "60 pies",
+                duracion: "Instantáneo",
+                ataque: "--",
+                clases: "Brujo, Hechicero y Mago",
+                informacion: "Intentas interrumpir el lanzamiento de conjuro de una criatura. Si el conjuro es de nivel 3 o inferior, el lanzamiento falla y no tiene efecto. Si es de nivel 4 o superior, haz una prueba de característica usando tu característica para lanzar conjuros; la CD es 10 + el nivel de conjuro. Si tienes éxito, el lanzamiento falla y su conjuro no tiene efecto.*En niveles superiores. Cuando lanzas este conjuro usando un espacio de conjuro de nivel 4 o superior, el conjuro interrumpido no tiene efecto si su nivel es igual o menor que el nivel del espacio de conjuro que uses.",
+            },
+
+            {   icono: "src/assets/nivel3/corcelFantasma.svg",
+                texto: "Corcel fantasma",
+                componentes: "V, S",
+                tiempoDeLanzamiento: "1 minuto",
+                alcance: "30 pies",
+                duracion: "1 hora",
+                ataque: "--",
+                clases: "Mago",
+                informacion: "Una criatura cuasirreal de tamaño Grande, similar a un caballo, aparece en el suelo de un lugar sin ocupar que elijas dentro del alcance. Tú decides el aspecto de la criatura, y está equipada con una silla de montar, bocado y brida. Cualquier parte del equipo creado por el conjuro se desvanece en una nube de humo si se aleja más de 10 pies de la montura.*Mientras dura el conjuro, tú o la criatura que elijas podéis montar en la montura. La criatura usa las estadísticas de un caballo de monta, excepto porque tiene una velocidad de 100 pies y puede viajar a 10 millas por hora, o 13 millas a un ritmo rápido. Cuando el conjuro termina, la montura se desvanece poco a poco y el jinete tiene 1 minuto para desmontar. El conjuro termina si usas una acción para disiparlo o si la montura recibe daño.",
+            },
+
+
+
+
+
+
+
+
+        ],
+    
+    }
 
    
 

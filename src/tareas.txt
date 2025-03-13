@@ -1,0 +1,3 @@
+→ Terminar de introducir hechizos con SVGs
+→ Poner fondo fijo 
+→ Desplegable por secciones?

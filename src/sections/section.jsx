@@ -16,6 +16,7 @@ const Section = ({ title, conjuros, backgroundColor = [] }) => {
                                 key={index} 
                                 title={conjuro.texto}
                                 backgroundColor={backgroundColor}
+                                icon={conjuro.icono && <img src={conjuro.icono} alt="" className="flex items-center w-10 h-10" />}
                                 modalContent={
                                     <div className="modal-content">
                                     <>
@@ -25,12 +26,12 @@ const Section = ({ title, conjuros, backgroundColor = [] }) => {
                                     <p><strong>Duración:</strong> {conjuro.duracion}</p>
                                     <p><strong>Ataque:</strong> {conjuro.ataque}</p>
                                     <p><strong>Clases:</strong> {conjuro.clases}</p>
-                                    <div> {/*Para añadir saltos de línea en el contenido largo del array en sectionData.js - Información*/}
+                                    <div> {/*Incluye dos saltos de línea por cada * en el apartado "información" del archivo sectionData.js*/}
                                         <strong>Información:</strong>
                                         {conjuro.informacion.split('*').map((line, index) => (
                                             <>
                                                 <p key={index}>{line}</p>
-                                                <br /> {/* Deja una línea en blanco entre párrafos */}
+                                                <br /> 
                                             </>
                                         ))}
                                     </div>

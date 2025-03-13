@@ -1511,8 +1511,8 @@ export const Hechizos = [
         ],
     },
     {
-        id: 6,
-        nivel: "Nivel 5",
+        id: 5,
+        nivel: "Nivel 4",
         backgroundColor: '#74B995',
         conjuros: [
             {
@@ -1718,8 +1718,8 @@ export const Hechizos = [
         ]
     },
     {
-        id: 6,
-        nivel: "Nivel 5",
+        id: 5,
+        nivel: "Nivel 4",
         backgroundColor: '#74B995',
         conjuros: [
             {
@@ -2199,8 +2199,8 @@ export const Hechizos = [
         ]
     },
     {
-        id: 7,
-        nivel: "Nivel 6",
+        id: 6,
+        nivel: "Nivel 5",
         backgroundColor: '#74B995',
         conjuros: [
             {   icono: "src/assets/nivel3/acelerar.svg",

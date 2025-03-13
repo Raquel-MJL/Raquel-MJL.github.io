@@ -1446,7 +1446,7 @@ export const Hechizos = [
 
             {
                 icono: "src/assets/nivel2/silencio.svg",
-                texto: "Restablecimiento menor",
+                texto: "Silencio",
                 componentes: "V,S",
                 tiempoDeLanzamiento: "1 acción",
                 alcance: "120 pies (Área 20 pies)",

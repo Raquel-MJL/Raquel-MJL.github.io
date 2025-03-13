@@ -1614,6 +1614,20 @@ export const Hechizos = [
                 informacion: "Una criatura cuasirreal de tamaño Grande, similar a un caballo, aparece en el suelo de un lugar sin ocupar que elijas dentro del alcance. Tú decides el aspecto de la criatura, y está equipada con una silla de montar, bocado y brida. Cualquier parte del equipo creado por el conjuro se desvanece en una nube de humo si se aleja más de 10 pies de la montura.*Mientras dura el conjuro, tú o la criatura que elijas podéis montar en la montura. La criatura usa las estadísticas de un caballo de monta, excepto porque tiene una velocidad de 100 pies y puede viajar a 10 millas por hora, o 13 millas a un ritmo rápido. Cuando el conjuro termina, la montura se desvanece poco a poco y el jinete tiene 1 minuto para desmontar. El conjuro termina si usas una acción para disiparlo o si la montura recibe daño.",
             },
 
+            {   icono: "src/assets/nivel3/crearComidaAgua.svg",
+                texto: "Crear comida y agua",
+                componentes: "V, S",
+                tiempoDeLanzamiento: "1 acción",
+                alcance: "30 pies",
+                duracion: "Instantáneo",
+                ataque: "--",
+                clases: "Clérigo y Paladín ",
+                informacion: "Creas 45 libras de comida y 30 galones de agua en el suelo o en un recipiente dentro del alcance, suficientes para sustentar hasta 15 humanoides o 5 monturas durante 24 horas. La comida es insípida, pero tiene nutrientes, y se estropea si no se come antes de 24 horas. El agua está limpia y no se pudre.",
+            },
+
+          
+
+
 
 
 

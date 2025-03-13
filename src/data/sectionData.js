@@ -898,10 +898,23 @@ export const Hechizos = [
 
     },
     {id: 2,
-        nivel: "Nivel 1",
+        nivel: "Nivel 2",
         backgroundColor: '#B0D7C3',
-        conjuros: []
-    }
+        conjuros: [
+
+            {   icono: "src/assets/nivel1/zancadaProdigiosa.svg",
+                texto: "Zancada prodigiosa",
+                componentes: "V,S,M (Tierra)",
+                tiempoDeLanzamiento: "1 acción",
+                alcance: "Toque",
+                duracion: "10 hora",
+                ataque: "--",
+                clases: "Bardo, Druida, Explorador y Mago",
+                informacion: "Tocas a una criatura, cuya velocidad aumenta en 10 pies hasta que el conjuro termina.*En niveles superiores. Cuando lanzas este conjuro usando un espacio de conjuro de nivel 2 o superior, puedes elegir como objetivo a una criatura adicional por cada nivel por encima de 1."
+            }
+
+        ],
+    },
 
    
 

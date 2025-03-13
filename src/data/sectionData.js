@@ -1446,7 +1446,7 @@ export const Hechizos = [
 
             {
                 icono: "src/assets/nivel2/silencio.svg",
-                texto: "Silencio",
+                texto: "Restablecimiento menor",
                 componentes: "V,S",
                 tiempoDeLanzamiento: "1 acción",
                 alcance: "120 pies (Área 20 pies)",
@@ -2299,7 +2299,7 @@ export const Hechizos = [
                 duracion: "8 horas",
                 ataque: "Cuerpo a cuerpo 4d8 perforante",
                 clases: "Mago",
-                informacion: "Conjuras un perro guardián espectral en un espacio sin ocupar que puedas ver dentro del alcance..."
+                informacion: "Conjuras un perro guardián espectral en un espacio sin ocupar que puedas ver dentro del alcance, donde permanece mientras dura el conjuro, hasta que lo desconvoques como acción o hasta que te alejes más de 100 pies de él. El mastín es invisible para todas las criaturas excepto para ti y no puede recibir daño. Cuando una criatura de tamaño Pequeño o más grande se acerque a 30 pies o menos de él sin decir primero la contraseña que especifiques cuando lances el conjuro, el mastín empieza a ladrar fuerte. El mastín ve criaturas invisibles, puede ver en el Plano Etéreo e ignora las ilusiones. Al principio de cada uno de tus turnos, el mastín intenta morder a una criatura que se encuentre a 5 pies o menos de él y que sea hostil hacia ti. El bonificador por ataque del mastín es igual a tu modificador por característica para lanzar conjuros + tu bonificador por competencia. Si impacta, inflige 4d8 puntos de daño perforante."
             },
             {
                 texto: "Moldear la piedra",
@@ -2307,8 +2307,8 @@ export const Hechizos = [
                 tiempoDeLanzamiento: "1 acción",
                 alcance: "Toque",
                 duracion: "Instantáneo",
-                clases: "Clérigo, Druida y Mago",
-                informacion: "Tocas un objeto de piedra de tamaño Mediano o más pequeño o una sección de piedra de no más de 5 pies en cualquier dimensión..."
+                clases: "Clérigo, Druida, Mago",
+                informacion: "Tocas un objeto de piedra de tamaño Mediano o más pequeño o una sección de piedra de no más de 5 pies en cualquier dimensión y le das la forma que se adapte a tu propósito. Así, por ejemplo, puedes convertir una roca grande en un arma, un ídolo o un cofre, o hacer un pequeño pasaje a través de una pared, siempre y cuando esta tenga menos de 5 pies de profundidad. También puedes darle forma a una puerta de piedra o a su marco para sellarla. El objeto que crees puede tener hasta dos bisagras y un pestillo, pero no es posible hacer mecanismos con detalles más finos."
             },
             {
                 texto: "Muro de fuego",
@@ -2318,7 +2318,7 @@ export const Hechizos = [
                 duracion: "Concentración 1 minuto",
                 ataque: "Contra salvación de Destreza 5d8 fuego",
                 clases: "Druida, Hechicero y Mago",
-                informacion: "Creas un muro de fuego en una superficie sólida dentro del alcance..."
+                informacion: "Creas un muro de fuego en una superficie sólida dentro del alcance. Puedes crear un muro de hasta 60 pies de largo, 20 de alto y 1 de anchura o un muro con forma de anillo de hasta 20 pies de diámetro, 20 de altura y 1 anchura. El muro es opaco y dura mientras dure el conjuro. Cuando el muro aparece, todas las criaturas que se encuentren en su área deben hacer una tirada de salvación de Destreza. Si fallan, reciben 5d8 puntos de daño por fuego y, si tienen éxito, la mitad. Un lado del muro, que seleccionas cuando lanzas el conjuro, inflige 5d8 puntos de daño por fuego a cada criatura que termine su turno a 10 pies o menos de él o dentro del muro. Una criatura recibe el mismo daño cuando entra en el muro por primera vez en un turno que cuando termina su turno en él. El otro lado del muro no inflige daño. En niveles superiores. Cuando lanzas este conjuro usando un espacio de conjuro de nivel 5 o superior, el daño aumenta en 1d8 por cada nivel por encima de 4."
             },
             {
                 texto: "Ojo arcano",
@@ -2327,7 +2327,7 @@ export const Hechizos = [
                 alcance: "30 pies",
                 duracion: "Concentración 1 hora",
                 clases: "Mago",
-                informacion: "Creas un ojo mágico e invisible dentro del alcance que planea en el aire mientras dura el conjuro..."
+                informacion: "Creas un ojo mágico e invisible dentro del alcance que planea en el aire mientras dura el conjuro. Recibes información visual mentalmente del ojo, que tiene visión normal y visión en la oscuridad hasta 30 pies. El ojo ve en cualquier dirección. Como acción, puedes mover el ojo hasta 30 pies en cualquier dirección. No hay límite de lo lejos que puede estar el ojo de ti, pero no puede entrar en otro plano de existencia. Una barrera sólida bloquea el movimiento del ojo, pero puede pasar por una abertura de hasta 1 pulgada."
             },
             {
                 texto: "Piel pétrea",
@@ -2336,7 +2336,7 @@ export const Hechizos = [
                 alcance: "Toque",
                 duracion: "Concentración 1 hora",
                 clases: "Explorador, Druida, Hechicero y Mago",
-                informacion: "Este conjuro hace que la carne de una criatura voluntaria que toques sea tan dura como la piedra..."
+                informacion: "Este conjuro hace que la carne de una criatura voluntaria que toques sea tan dura como la piedra. Hasta que el conjuro termine, el objetivo tiene resistencia al daño contundente, perforante y cortante no mágico."
             },
             {
                 texto: "Polimorfar",
@@ -2346,7 +2346,7 @@ export const Hechizos = [
                 duracion: "Concentración 1 hora",
                 ataque: "Contra salvación de Sabiduría",
                 clases: "Bardo, Druida, Hechicero y Mago",
-                informacion: "Este conjuro transforma a una criatura que puedas ver dentro del alcance en una nueva forma..."
+                informacion: "Este conjuro transforma a una criatura que puedas ver dentro del alcance en una nueva forma. Una criatura involuntaria debe superar una tirada de salvación de Sabiduría para evitar el efecto. El conjuro no tiene efecto en los cambiaformas o en criaturas con 0 puntos de golpe. La transformación dura mientras lo haga el conjuro, hasta que los puntos de golpe del objetivo se reduzcan a 0 o hasta que muera. La nueva forma puede ser cualquier bestia cuyo valor de desafío sea igual o menor que el del objetivo (o que su nivel si no tiene valor de desafío). Las estadísticas de juego del objetivo, incluyendo las puntuaciones de las características mentales, se remplazan por las estadísticas de la bestia elegida, aunque mantiene su alineamiento y su personalidad. El objetivo asume los puntos de golpe de su nueva forma y, cuando vuelve a su forma normal, recupera el número de puntos de golpe que tenía antes de transformarse. Si vuelve a su forma original porque sus puntos de golpe se han reducido a 0, cualquier exceso de daño se aplica a su forma normal. Siempre y cuando el exceso de daño no reduzca los puntos de golpe de la forma normal a 0, la criatura no queda inconsciente. La naturaleza de la nueva forma de la criatura limita las acciones que puede realizar y no puede hablar, lanzar conjuros o realizar cualquier otra acción que requiera manos o hablar. El equipo del objetivo se funde con la nueva forma. La criatura no puede activar, usar, empuñar o beneficiarse de su equipo."
             },
             {
                 texto: "Puerta dimensional",
@@ -2355,7 +2355,7 @@ export const Hechizos = [
                 alcance: "500 pies",
                 duracion: "Instantáneo",
                 clases: "Bardo, Brujo, Hechicero y Mago",
-                informacion: "Te teleportas desde tu localización actual a cualquier otro lugar que desees dentro del alcance..."
+                informacion: "Te teleportas desde tu localización actual a cualquier otro lugar que desees dentro del alcance. Puede ser un lugar que puedas ver, visualizar o describir indicando la distancia y la dirección, como '200 pies todo recto hacia abajo' o 'subiendo 300 pies hacia el noroeste en un ángulo de 45 grados'. Puedes llevar objetos siempre y cuando su peso no exceda el que puedes transportar. También puedes llevar una criatura voluntaria de tu tamaño o más pequeña que lleve equipo hasta su capacidad de carga. La criatura debe estar a 5 pies de ti o menos cuando lances este conjuro. Si llegas a un lugar que ya está ocupado por un objeto o una criatura, la criatura que viaja contigo y tú recibís cada uno 4d6 puntos de daño por fuerza y el conjuro no consigue teleportaros."
             },
             {
                 texto: "Sanctasanctórum privado de Mordenkainen",
@@ -2364,26 +2364,27 @@ export const Hechizos = [
                 alcance: "120 pies",
                 duracion: "24 horas",
                 clases: "Mago",
-                informacion: "Creas un área mágicamente segura dentro del alcance..."
+                informacion: "Creas un área mágicamente segura dentro del alcance. El área es un cubo que puede tener de 5 a 100 pies de lado. El conjuro permanece mientras dure o hasta que uses una acción para disiparlo. Cuando lanzas este conjuro, decide qué tipo de seguridad ofrece y cuáles de las siguientes propiedades tiene: El sonido no puede atravesar la barrera en el límite del área protegida. La barrera del área protegida parece oscura y vaga; evita que se vea a través de ella (incluyendo la visión en la oscuridad). Los conjuros de adivinación no pueden crear sensores dentro del área protegida ni pasar el perímetro de la barrera. Las criaturas que estén dentro del área no pueden ser el objetivo de los conjuros de adivinación. Nada puede teleportarse dentro o fuera del área protegida. El viaje planar está bloqueado dentro del área protegida. Lanzar este conjuro en el mismo lugar todos los días durante un año hace que este efecto sea permanente. En niveles superiores. Cuando lanzas este conjuro usando un espacio de conjuro de nivel 5 o superior, puedes aumentar el tamaño del cubo en 100 pies por cada nivel por encima de 4. De este modo, puedes proteger un cubo que puede tener un lateral de hasta 200 pies utilizando un espacio de conjuro de nivel 5."
             },
             {
                 texto: "Tentáculos negros de Evard",
                 componentes: "V,S,M (un tentáculo de un pulpo o calamar gigante)",
                 tiempoDeLanzamiento: "1 acción",
-                alcance: "90 pies",
+                alcance: "90 pies (20 pies)",
                 duracion: "Concentración 1 minuto",
-                ataque: "Contra salvación de Destreza 3d6 contundente",
+                tiradaDeSalvacion: "Destreza niega",
+                ataque: "Contra salvación 3d6 contundente",
                 clases: "Mago",
-                informacion: "Unos tentáculos como el ébano se retuercen llenando un cuadrado del suelo de 20 pies que puedas ver dentro del alcance..."
+                informacion: "Unos tentáculos como el ébano se retuercen llenando un cuadrado del suelo de 20 pies que puedas ver dentro del alcance. Mientras dura el conjuro, los tentáculos hacen que el terreno del área sea terreno difícil. Cuando una criatura entra en el área afectada por primera vez en un turno o empieza su turno en ella, debe superar una tirada de salvación de Destreza para no recibir 3d6 puntos de daño contundente y quedar apresada por los tentáculos hasta que termine el conjuro. Una criatura que empieza su turno en esta área y ya está apresada por los tentáculos recibe 3d6 puntos de daño perforante. Una criatura apresada por los tentáculos puede usar su acción para hacer una prueba de Fuerza o Destreza (a su elección) contra la CD de salvación del conjuro. Si tiene éxito, se libera."
             },
             {
                 texto: "Terreno alucinatorio",
                 componentes: "V,S,M (una piedra, una ramita y un fragmento de una planta de color verde)",
                 tiempoDeLanzamiento: "10 minutos",
-                alcance: "300 pies",
+                alcance: "300 pies (150 pies)",
                 duracion: "24 horas",
-                clases: "Bardo, Brujo, Druida y Mago",
-                informacion: "Creas un terreno natural en un cubo de 150 pies dentro del alcance que parece, suena y huele como otro tipo de terreno natural..."
+                clases: "Bardo, Brujo, Druida, Mago",
+                informacion: "Creas un terreno natural en un cubo de 150 pies dentro del alcance que parece, suena y huele como otro tipo de terreno natural. De este modo, un campo abierto o una carretera pueden parecer un pantano, una colina, una grieta o cualquier otro terreno difícil o intransitable. Se puede hacer que un estanque parezca un prado cubierto de hierba, que un precipicio parezca una leve pendiente o que un barranco cubierto de rocas parezca un camino ancho y allanado. La apariencia de estructuras, equipo y criaturas que se encuentren dentro del área no cambia. Las características táctiles del terreno permanecen inalterables, así que es posible que las criaturas que entran en el área vean a través de la ilusión. Si la diferencia no es obvia al tacto, una criatura que examine la ilusión cuidadosamente puede realizar una prueba de Inteligencia (Investigación) enfrentada a la CD de salvación de tu conjuro para ponerlo en duda. Una criatura que discierne la ilusión por lo que es, la ve como una imagen vaga superpuesta en el terreno."
             },
             {
                 texto: "Tormenta de hielo",
@@ -2391,10 +2392,10 @@ export const Hechizos = [
                 tiempoDeLanzamiento: "1 acción",
                 alcance: "300 pies",
                 duracion: "Instantáneo",
-                ataque: "Contra salvación de Destreza 2d8+4d6",
+                ataque: "Contra salvación de Destreza 2d8 contundente + 4d6 frío",
                 clases: "Druida, Hechicero y Mago",
-                informacion: "Cae granizo en un cilindro de 20 pies de radio y 40 de altura cuyo centro se encuentra en un punto dentro del alcance..."
-            }
+                informacion: "Cae granizo en un cilindro de 20 pies de radio y 40 de altura cuyo centro se encuentra en un punto dentro del alcance. Todas las criaturas que se encuentren dentro del cilindro deben hacer una tirada de salvación de Destreza. Si fallan, reciben 2d8 puntos de daño contundente y 4d6 de daño por frío o, si tienen éxito, la mitad. El granizo convierte el área de efecto de la tormenta en terreno difícil hasta el final de tu siguiente turno. En niveles superiores. Cuando lanzas este conjuro usando un espacio de conjuro de nivel 5 o superior, el daño contundente aumenta en 1d8 por cada nivel por encima de 4."
+            },
         ]
     },
     {

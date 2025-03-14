@@ -2846,7 +2846,7 @@ export const Hechizos = [
                 alcance: "60 pies",
                 duracion: "Instantáneo",
                 clases: "Clérigo",
-                informacion: "Suplicas ayuda a una entidad cósmica, que envía un celestial, elemental o infernal para asistirte. Puedes pedir una criatura específica, pero la entidad decide qué enviar. Debes negociar un pago por sus servicios. El coste es de aproximadamente 100 po por minuto, 1000 po por hora o 10 000 po por día, aunque puede variar. Si la tarea es peligrosa o contraria a los intereses de la criatura, puede negarse."
+                informacion: "Suplicas ayuda a una entidad de otro mundo que conozcas: un dios, un primordial, un príncipe demonio u otro ser con poder cósmico. La entidad envía un celestial, un elemental o un infernal que le sea leal a un lugar sin ocupar dentro del alcance para que te ayude. Si conoces el nombre de una criatura específica, puedes decirlo cuando lances el conjuro para solicitarla, aunque la entidad puede enviarte cualquier otra de todos modos (a elección del director de juego).*Cuando la criatura aparece, no se encuentra coaccionada para actuar de un modo en particular. Puedes pedirle que realice un servicio a cambio de un pago, pero no está obligada a hacerlo. La tarea solicitada puede ser desde una actividad simple (cruzar un abismo volando o ayudar a luchar en la batalla) a una compleja (espiar a vuestros enemigos o protegeros durante vuestra incursión en el dungeon). Debes ser capaz de comunicarte con la criatura para hacer un trato a cambio de sus servicios.*El pago puede tener muchas formas. Un celestial puede requerir una donación considerable de oro u objetos mágicos a un templo aliado, mientras que un infernal puede exigir el sacrificio de una vida o un tesoro. Algunas criaturas pueden intercambiar sus servicios por que realices una misión.*Como normal general, una tarea que se puede medir en minutos requiere un pago de 100 po por minuto, una tarea que se mide en horas requiere 1000 po por hora y una tarea que se mide en días (hasta 10 días) requiere 10 000 po por día. El director de juego puede ajustar estos pagos de acuerdo a las circunstancias bajo las que se lanza el conjuro. Si la tarea está alineada con el ethos de la criatura, el pago se podría dividir por dos o incluso obviar. Las tareas que no son peligrosas normalmente requieren la mitad del pago requerido, mientras que las tareas especialmente peligrosas pueden requerir un obsequio mayor. Las criaturas rara vez aceptan tareas que parecen suicidas.*Después de que la criatura complete su tarea o cuando la duración del servicio acordado expire, la criatura regresa a su plano natal después de informarte sobre el cumplimiento de la tarea, si es posible. Si no eres capaz de acordar un precio por el servicio de la criatura, esta regresa inmediatamente a su plano natal.*Una criatura a la que reclutas para que se una a tu grupo se considera un miembro de este, por lo que recibe su parte correspondiente de los puntos de experiencia ganados."
             },
             {
                 texto: "Baile irresistible de Otto",
@@ -2855,7 +2855,7 @@ export const Hechizos = [
                 alcance: "30 pies",
                 duracion: "Concentración 1 minuto",
                 clases: "Bardo y Mago",
-                informacion: "El objetivo comienza a bailar sin control. Debe usar todo su movimiento para bailar sin moverse del sitio y tiene desventaja en salvaciones de Destreza y ataques. Las criaturas tienen ventaja en ataques contra él. Puede hacer una salvación de Sabiduría en su turno para acabar con el conjuro."
+                informacion: "Elige una criatura que puedas ver dentro del alcance. El objetivo se pone a bailar de manera cómica, moviendo manos y pies, mientras dura el conjuro. Las criaturas que no pueden ser hechizadas son inmunes a este conjuro.*Una criatura que baila debe usar todo su movimiento para bailar sin moverse de su espacio y tiene desventaja en las tiradas de salvación de Destreza y en las tiradas de ataque. Mientras que el objetivo está afectado por este conjuro, las demás criaturas tienen ventaja en las tiradas de ataque que hagan contra él. Como acción, la criatura puede hacer una tirada de salvación de Sabiduría para recuperar el control sobre sí misma. Si tiene éxito, el conjuro termina."
             },
             {
                 texto: "Barrera de cuchillas",
@@ -2866,7 +2866,7 @@ export const Hechizos = [
                 tiradaDeSalvacion: "Destreza mitad",
                 ataque: "Contra salvación 6d10 cortante",
                 clases: "Clérigo",
-                informacion: "Creas una pared de cuchillas giratorias de hasta 100 pies de largo, 20 pies de alto y 5 pies de grosor. Causa 6d10 de daño cortante a quienes la crucen. Proporciona tres cuartos de cobertura y convierte el área en terreno difícil."
+                informacion: "Creas una pared vertical de afiladas cuchillas de energía mágica que giran. La pared aparece dentro del alcance del conjuro y dura mientras este lo haga. La pared puede medir hasta 100 pies de largo, 20 pies de alto y 5 pies de grosor. Proporciona tres cuartos de cobertura y el espacio que ocupa es terreno difícil.*Cuando una criatura entra en el área de la pared por primera vez en un turno o empieza su turno dentro de ella, debe superar una tirada de salvación de Destreza. Si falla, recibe 6d10 puntos de daño cortante; si tiene éxito, recibe la mitad."
             },
             {
                 texto: "Círculo de muerte",
@@ -2877,7 +2877,7 @@ export const Hechizos = [
                 tiradaDeSalvacion: "Constitución mitad",
                 ataque: "Contra salvación 8d6 necrótico",
                 clases: "Brujo, Hechicero y Mago",
-                informacion: "Lanzas una esfera de energía negativa de 60 pies de radio. Las criaturas dentro deben hacer una salvación de Constitución. Si fallan, reciben 8d6 de daño necrótico, la mitad si tienen éxito. Si usas un espacio de nivel 7 o superior, el daño aumenta en 2d6 por nivel adicional."
+                informacion: "Un cúmulo de energía negativa flota dentro de una esfera de 60 pies de radio cuyo centro es un punto que esté dentro del alcance. Todas las criaturas que se encuentren dentro de esa área deben hacer una tirada de salvación de Constitución. Si fallan, reciben 8d6 puntos de daño necrótico y, si tienen éxito, la mitad.*En niveles superiores. Cuando lanzas este conjuro usando un espacio de conjuro de nivel 7 o superior, el daño aumenta en 2d6 por cada nivel por encima de 6."
             },
             {
                 texto: "Conjurar feérico",
@@ -2886,7 +2886,7 @@ export const Hechizos = [
                 alcance: "90 pies",
                 duracion: "Concentración 1 hora",
                 clases: "Brujo y Druida",
-                informacion: "Convocas una criatura feérica de VD 5 o un espíritu feérico con forma de bestia de VD 6. Obedece tus órdenes y desaparece si pierde todos sus puntos de golpe. Si pierdes la concentración, se vuelve hostil. Cada nivel superior aumenta en 1 el VD máximo permitido."
+                informacion: "Convocas a una criatura feérica con un valor de desafío igual a 5 o menos o un espíritu feérico en forma de bestia con un valor de desafío igual a 6 o menos. La criatura feérica aparece en un espacio sin ocupar que puedas ver dentro del alcance y desaparece cuando sus puntos de golpe se reducen a 0 o cuando el conjuro termina.*La criatura feérica es amistosa hacia ti y tus compañeros mientras dura el conjuro. Tira iniciativa por la criatura, que tiene sus propios turnos. Obedece cualquier orden verbal que le des (no requiere que realices ninguna acción), siempre y cuando no violes su alineamiento. Si no le das ninguna orden, se defiende de las criaturas hostiles, pero, si no las hay, no realiza ninguna acción.*Si pierdes la concentración, la criatura feérica no desaparece, sino que pierdes el control sobre ella, se vuelve hostil hacia ti y tus compañeros y podría atacaros. No puedes desconvocar a una criatura feérica descontrolada, y esta desaparece una hora después de que la hayas convocado.*El director de juego determina las estadísticas de la criatura feérica.*En niveles superiores. Cuando lanzas este conjuro usando un espacio de conjuro de nivel 7 o superior, el valor de desafío aumenta en 1 por cada nivel por encima de 6."
             },
             {
                 texto: "Contingencia",
@@ -2895,7 +2895,7 @@ export const Hechizos = [
                 alcance: "Personal",
                 duracion: "10 días",
                 clases: "Mago",
-                informacion: "Preparas un conjuro de nivel 5 o menor que se activará bajo una condición establecida. Debe tener un tiempo de lanzamiento de 1 acción y ser solo para ti. Cuando se cumpla la condición, el conjuro se activa automáticamente. Solo puedes tener una Contingencia activa a la vez."
+                informacion: "Elige un conjuro de nivel 5 o inferior que puedas lanzar, que tenga un tiempo de lanzamiento de 1 acción y cuyo objetivo puedas ser tú. Lanzas dicho conjuro (que recibe el nombre de conjuro de contingencia) como parte del lanzamiento de Contingencia, gastando espacios de conjuro para los dos, pero el de contingencia no tiene efecto ahora, sino cuando se dé una circunstancia determinada. Describes esa circunstancia cuando lanzas dos conjuros. Por ejemplo, el conjuro Contingencia que se lanza con Respirar agua puede estipular que el segundo surte efecto cuando estás rodeado de agua o en un líquido similar. El conjuro de contingencia surte efecto inmediatamente después de que se cumpla la circunstancia por primera vez, quieras o no, y entonces el conjuro Contingencia termina.*El conjuro de contingencia solo tiene efecto sobre ti, incluso si normalmente puede tener a otros como objetivo. Solo puedes usar un conjuro de contingencia a la vez. Si vuelves a lanzar Contingencia, termina el efecto del conjuro que hayas lanzado antes. Asimismo, termina si dejas de llevar contigo los componentes materiales."
             },
             {
                 texto: "Crear muerto viviente",
@@ -2904,7 +2904,7 @@ export const Hechizos = [
                 alcance: "10 pies",
                 duracion: "Instantáneo",
                 clases: "Brujo, Clérigo y Mago",
-                informacion: "Solo puede lanzarse de noche. Reanima hasta tres cadáveres humanoides como necrófagos. Puedes darles órdenes mentales mientras estén a 120 pies de ti. Duran 24 horas, pero puedes reafirmar el control antes de que termine ese tiempo. Con niveles superiores, puedes crear más necrófagos o criaturas más poderosas."
+                informacion: "Solo puedes lanzar este conjuro por la noche. Elige hasta tres cadáveres humanoides de tamaño Mediano o Pequeño dentro del alcance. Cada uno se convierte en un necrófago bajo tu control (el director de juego determina las estadísticas para estas criaturas).*Como acción adicional en cada uno de tus turnos, puedes dar órdenes mentalmente a cualquier criatura a la que hayas dado vida con este conjuro si esta se encuentra a 120 pies o menos de ti (si controlas varias criaturas, puedes dar órdenes a cualquiera de ellas o a todas al mismo tiempo usando la misma orden). Tú decides qué acción realizará la criatura y adónde se moverá durante su siguiente turno, o puedes dar una orden general, como proteger una habitación o un pasillo en particular. Si no das ninguna orden, la criatura solo se defiende a sí misma de las criaturas hostiles. Una vez se le da una orden, la criatura la sigue hasta que su tarea está completada.*La criatura se encuentra bajo tu control durante 24 horas, tras las cuales deja de obedecer cualquier orden que le hayas dado. Para mantener el control sobre la criatura durante otras 24 horas, debes lanzarle otra vez este conjuro antes de que el periodo actual de 24 horas termine. Usar el conjuro de este modo reinicia el control sobre otras tres criaturas que hayas animado con el mismo en lugar de animar a otras nuevas.*En niveles superiores. Cuando lanzas este conjuro usando un espacio de conjuro de nivel 7 o superior, puedes animar o reafirmar el control sobre cuatro necrófagos. Cuando lanzas este conjuro usando un espacio de conjuro de nivel 8, puedes animar o reafirmar el control sobre cinco necrófagos o dos necrarios o tumularios. Cuando lanzas este conjuro con espacios de conjuro de nivel 9, puedes animar o restablecer el control sobre seis necrófagos, tres necrarios o tumularios, o dos momias."
             },
             {
                 texto: "Curar",
@@ -2913,7 +2913,7 @@ export const Hechizos = [
                 alcance: "60 pies",
                 duracion: "Instantáneo",
                 clases: "Clérigo y Druida",
-                informacion: "Elige a una criatura que puedas ver dentro del alcance. Recupera 70 puntos de golpe y se cura de ceguera, sordera y enfermedades. No tiene efecto en constructos ni no muertos. Con niveles superiores, recupera 10 puntos más por nivel adicional."
+                informacion: "Elige a una criatura que puedas ver dentro del alcance. Una explosión de energía positiva la invade, haciéndole recuperar 70 puntos de golpe. Este conjuro también termina con los estados ceguera, sordera y cualquier enfermedad que afecte al objetivo. Este conjuro no tiene efecto ni en constructos ni en no muertos.*En niveles superiores. Cuando lanzas este conjuro usando un espacio de conjuro de nivel 7 o superior, la cantidad de puntos recuperados aumenta en 10 por cada nivel por encima de 6."
             },
             {
                 texto: "Dañar",
@@ -2924,7 +2924,7 @@ export const Hechizos = [
                 tiradaDeSalvacion: "Constitución mitad",
                 ataque: "Contra salvación 14d6 necrótico",
                 clases: "Clérigo",
-                informacion: "Infliges una enfermedad virulenta. El objetivo debe hacer una salvación de Constitución. Si falla, recibe 14d6 de daño necrótico. Su máximo de puntos de golpe se reduce por 1 hora igual al daño recibido. Cualquier efecto que cure enfermedades puede restaurar los puntos de golpe máximos antes de que pase el tiempo."
+                informacion: "Liberas una enfermedad virulenta en una criatura que puedas ver dentro del alcance. El objetivo debe hacer una tirada de salvación de Constitución. Si falla, recibe 14d6 puntos de daño necrótico y, si tiene éxito, la mitad. El daño no puede reducir sus puntos de golpe a menos de 1. Si el objetivo falla la tirada de salvación, su máximo de puntos de golpe se reduce durante 1 hora en una cantidad igual al daño necrótico recibido. Cualquier efecto que elimine una enfermedad permite que el máximo de puntos de golpe de la criatura vuelva a la normalidad antes de que pase ese tiempo."
             },
             {
                 texto: "De la carne a la piedra",
@@ -2934,7 +2934,7 @@ export const Hechizos = [
                 duracion: "Concentración 1 minuto",
                 tiradaDeSalvacion: "Constitución niega",
                 clases: "Brujo y Mago",
-                informacion: "Intentas convertir en piedra a una criatura de carne. Debe hacer una salvación de Constitución. Si falla, queda apresada y repite la salvación al final de cada turno. Si falla 3 veces, queda petrificada. Si mantiene la petrificación hasta que termine la concentración, la transformación es permanente."
+                informacion: "Intentas convertir en piedra a una criatura que puedas ver dentro del alcance. Si el cuerpo del objetivo es de carne, este debe hacer una tirada de salvación de Constitución. Si falla, queda apresado como si su carne fuera demasiado dura. Si tiene éxito, la criatura no se ve afectada.*Una criatura apresada por este conjuro debe hacer otra tirada de salvación de Constitución al final de cada uno de sus turnos. Cuando supere tres tiradas, el conjuro termina. Si falla tres veces, se convierte en piedra y queda petrificado mientras dure el conjuro. Los éxitos y los fallos no tienen que ser consecutivos; lleva la cuenta de ambos hasta que el objetivo consiga tres de un tipo.*Si la criatura se rompe físicamente mientras está petrificada, sufre una deformidad similar si vuelve a su estado original.*Si mantienes la concentración en este conjuro hasta la duración máxima, la criatura se convierte en piedra hasta que se elimine el efecto."
             },
             {
                 texto: "Desintegrar",
@@ -2945,7 +2945,7 @@ export const Hechizos = [
                 tiradaDeSalvacion: "Destreza niega",
                 ataque: "Contra salvación 10d6+40 fuerza",
                 clases: "Hechicero y Mago",
-                informacion: "Lanzas un rayo verde que desintegra criaturas u objetos. Si el objetivo falla su salvación de Destreza, recibe 10d6+40 de daño por fuerza. Si sus puntos de golpe llegan a 0, se convierte en polvo y solo puede revivir con Deseo o Resurrección verdadera. Objetos no mágicos también son destruidos."
+                informacion: "Apuntando a un objetivo que puedas ver dentro del alcance, de tu dedo sale un delgado rayo verde. El objetivo puede ser una criatura, un objeto o una creación de fuerza mágica, como el muro creado por Muro de fuerza.*Una criatura objetivo debe hacer una tirada de salvación de Destreza. Si falla, recibe 10d6+40 puntos de daño por fuerza. Si este daño reduce sus puntos de golpe a 0, esta se desintegra.*Una criatura desintegrada, y todo lo que lleve puesto o transporte, excepto los objetos mágicos, queda reducida o un montón de polvillo gris. La criatura solo puede volver a la vida mediante los conjuros Resurrección verdadera o Deseo.*Este conjuro desintegra automáticamente un objeto de tamaño Grande o menor. Si el objetivo es un objeto o una creación de fuerza mágica de tamaño Enorme o mayor, el conjuro desintegra una porción de él igual a un cubo de 10 pies. Este conjuro no afecta a objetos mágicos.*En niveles superiores. Cuando lanzas este conjuro usando un espacio de conjuro de nivel 7 o superior, el daño aumenta en 3d6 por cada espacio de conjuro por encima de 6."
             },
             {
                 texto: "Encontrar el camino",
@@ -2954,7 +2954,7 @@ export const Hechizos = [
                 alcance: "Personal",
                 duracion: "Concentración 1 día",
                 clases: "Bardo, Clérigo y Druida",
-                informacion: "Este conjuro te guía hasta un lugar específico en el mismo plano de existencia. No funciona para destinos móviles o imprecisos. Siempre sabes la distancia y dirección del destino y la ruta más corta para llegar."
+                informacion: "Este conjuro te permite encontrar la ruta física más corta y directa hacia una localización física específica con la que estés familiarizado y que se encuentre en el mismo plano de existencia que tú. Si nombras un destino de otro plano de existencia, un destino que se mueve (como una fortaleza móvil) o un destino inespecífico (como la guarida de un dragón verde), el conjuro falla.*Mientras dura el conjuro, siempre y cuando estés en el mismo plano de existencia que el destino, sabes lo lejos que está y en qué dirección se encuentra. Mientras viajas allí, cuando se te presenta una elección de sendas a lo largo del camino, sabes de manera automática cuál es la ruta más corta y directa hacia el destino (pero no necesariamente la más segura)."
             },
             {
                 texto: "Esfera congelante de Otiluke",
@@ -2965,7 +2965,7 @@ export const Hechizos = [
                 tiradaDeSalvacion: "Constitución mitad",
                 ataque: "Contra salvación 10d6 frío",
                 clases: "Mago",
-                informacion: "Lanzas una explosión de frío de 60 pies de radio. Las criaturas dentro deben hacer una salvación de Constitución. Si fallan, reciben 10d6 de daño por frío. Si golpea agua, la congela y atrapa criaturas en su superficie. El globo puede guardarse y lanzarse manualmente. Cada nivel adicional aumenta el daño en 1d6."
+                informacion: "Un globo helado de energía fría surge de la punta de tus dedos hasta un punto que elijas dentro del alcance, donde explota en una esfera de 60 pies de radio. Cada criatura dentro del área debe hacer una tirada de salvación de Constitución. Si falla, recibe 10d6 puntos de daño por frío; si tiene éxito, la mitad.*Si el globo golpea un cuerpo de agua o un líquido que sea principalmente de agua (sin incluir a las criaturas basadas en agua), congela el líquido a una profundidad de 6 pulgadas sobre un área de 30 pies cuadrados. Este hielo dura 1 minuto. Las criaturas que estaban nadando en la superficie del agua quedan atrapadas en el hielo. Una criatura atrapada puede usar una acción para hacer una prueba de Fortaleza contra la CD de salvación de tu conjuro para liberarse.*Puedes evitar disparar el globo después de lanzar el conjuro si lo deseas, en cuyo caso un globo de más o menos el tamaño de una piedra lisa y fría al tacto aparece en tu mano. En cualquier momento, tú o una criatura a la que le das el globo podéis tirarlo con la mano (hasta una distancia de 40 pies) o con una honda (alcance normal de una honda). El globo se destroza al impactar, con el mismo efecto que tiene cuando lanzas el conjuro con normalidad. También puedes colocar el globo sin destrozarlo. Después de 1 minuto, si el globo aún no ha estallado, explota.*En niveles superiores. Cuando lanzas este conjuro usando un espacio de conjuro de nivel 7 o superior, el daño aumenta en 1d6 por cada nivel por encima de 6."
             },
             {
                 texto: "Festín de héroes",
@@ -2974,7 +2974,7 @@ export const Hechizos = [
                 alcance: "30 pies",
                 duracion: "Instantáneo",
                 clases: "Clérigo y Druida",
-                informacion: "Creas un festín mágico para hasta 12 criaturas. Se curan de venenos y enfermedades, ganan inmunidad al veneno y al miedo, ventaja en salvaciones de Sabiduría y 2d10 puntos de golpe adicionales. Dura 24 horas."
+                informacion: "Creas un gran festín de comida y bebida magníficas. El festín se consume en 1 hora y desaparece después de ese tiempo, y los efectos beneficiosos no surten efecto hasta que no termina esta hora. Hasta doce criaturas aparte de ti pueden participar en el festín.*Una criatura que participa en el festín consigue varios beneficios: se cura de todas las enfermedades y venenos, se vuelve inmune al veneno y a quedar asustada, y tiene ventaja en todas las tiradas de salvación de Sabiduría. Su máximo de puntos de golpe también aumenta en 2d10 y consigue el mismo número de puntos de golpe. Estos beneficios duran 24 horas."
             },
             {
                 texto: "Globo de invulnerabilidad",
@@ -2983,189 +2983,178 @@ export const Hechizos = [
                 alcance: "Personal",
                 duracion: "Concentración 1 minuto",
                 clases: "Hechicero y Mago",
-                informacion: "Creas una barrera mágica de 10 pies de radio que bloquea todos los conjuros de nivel 5 o menor lanzados desde fuera. Los conjuros más poderosos pueden atravesarla. Con niveles superiores, la barrera bloquea conjuros de nivel superior."
+                informacion: "Una barrera inmóvil y ligeramente reluciente te rodea en un radio de 10 pies y dura mientras lo haga el conjuro.*Cualquier conjuro de nivel 5 o inferior que se lance desde fuera de la barrera no puede afectar a las criaturas u objetos que se encuentren dentro de ella, incluso si el conjuro se lanza usando un espacio de conjuro superior. Un conjuro de este tipo puede tener como objetivo a criaturas u objetos dentro de la barrera, pero el conjuro no tiene efecto sobre ellos. Del mismo modo, el área dentro de la barrera está excluida de las áreas afectadas por tales conjuros.*En niveles superiores. Cuando lanzas este conjuro usando un espacio de conjuro de nivel 7 o superior, la barrera bloquea los conjuros de un nivel superior por cada nivel por encima de 6."
             },
             {
                 texto: "Guardas y guardias",
-               escuela: "Abjuración",
-               componentes: "V,S,M",
-               tiempoDeLanzamiento: "10 minutos",
-               alcance: "Toque",
-               duracion: "24 horas",
-               clases: "Bardo, Mago",
-               informacion: "Creas una custodia que protege hasta 2500 pies cuadrados de un área con diversos efectos mágicos. Puedes sellar puertas, llenar escaleras de telarañas, oscurecer pasillos y colocar efectos como Luces danzantes, Boca mágica, Nube apestosa, Ráfaga de viento o Sugestión. Puede volverse permanente lanzándolo todos los días durante un año."
-           },
-           {
-            texto: "Ilusión programada",
-           escuela: "Ilusión",
-           componentes: "V,S,M",
-           tiempoDeLanzamiento: "1 acción",
-           alcance: "120 pies (30 pies)",
-           duracion: "Hasta disipado",
-           clases: "Bardo, Mago",
-           informacion: "Creas una ilusión de hasta 30 pies cúbicos que se activa bajo condiciones específicas. Puede moverse y emitir sonidos por hasta 5 minutos. Se reactiva cada 10 minutos si las condiciones se cumplen nuevamente. Puede descubrirse con una prueba de Inteligencia (Investigación) enfrentada a la CD de tu conjuro."
-       },
-       {
-            texto: "Invocación instantánea de Drawmij",
-           escuela: "Conjuración (ritual)",
-           componentes: "V,S,M",
-           tiempoDeLanzamiento: "1 minuto",
-           alcance: "Toque",
-           duracion: "Hasta disipado",
-           clases: "Mago",
-           informacion: "Permite marcar un objeto de hasta 10 libras y 6 pies de tamaño. Rompiendo un zafiro vinculado al conjuro, el objeto aparecerá en tu mano sin importar la distancia. Si alguien lo sostiene, sabrás quién es y su ubicación aproximada."
-       },
-       {
-            texto: "Mal de ojo",
-           escuela: "Nigromancia",
-           componentes: "V,S",
-           tiempoDeLanzamiento: "1 acción",
-           alcance: "60 pies",
-           duracion: "Concentración 1 minuto",
-           tiradaDeSalvacion: "Sabiduría niega",
-           clases: "Bardo, Brujo, Hechicero, Mago",
-           informacion: "Tus ojos se tornan negros y malditos. Cada turno puedes elegir una criatura que debe superar una tirada de salvación de Sabiduría o sufrir uno de los siguientes efectos: Asqueado (desventaja en ataques y pruebas), Aterrado (debe huir de ti), o Dormido (cae inconsciente hasta que reciba daño o sea despertado)."
-       },
-       {
-            texto: "Mover la tierra",
-
-           escuela: "Transmutación",
-           componentes: "V,S,M",
-           tiempoDeLanzamiento: "1 acción",
-           alcance: "120 pies",
-           duracion: "Concentración 2 horas",
-           clases: "Druida, Hechicero, Mago",
-           informacion: "Moldeas tierra, arcilla o arena en un área de hasta 40 pies de lado, elevándola, cavando zanjas o creando estructuras de hasta 20 pies de altura. No afecta piedra natural ni edificios."
-       },
-       {
-            texto: "Muro de espinas",
-           escuela: "Conjuración",
-           componentes: "V,S,M",
-           tiempoDeLanzamiento: "1 acción",
-           alcance: "120 pies",
-           duracion: "Concentración 10 minutos",
-           tiradaDeSalvacion: "Destreza mitad",
-           ataque: "Contra salvación 7d8 perforante",
-           clases: "Druida",
-           informacion: "Creas un muro de espinas de hasta 60 pies de largo, 10 de alto y 5 de ancho. Inflige daño perforante a las criaturas dentro y que intenten atravesarlo."
-       },
-       {
-            texto: "Muro de hielo",
-
-           escuela: "Evocación",
-           componentes: "V,S,M",
-           tiempoDeLanzamiento: "1 acción",
-           alcance: "120 pies",
-           duracion: "Concentración 10 minutos",
-           clases: "Mago",
-           informacion: "Creas un muro de hielo en forma de barrera o cúpula. Puede empujar criaturas y hacerles daño por frío. Es un objeto con CA 12 y 30 puntos de golpe por sección. Si se rompe, deja tras de sí un aire helado que causa daño adicional."
-       },
-       {
-            texto: "Palabra de regreso",
-
-           escuela: "Conjuración",
-           componentes: "V",
-           tiempoDeLanzamiento: "1 acción",
-           alcance: "5 pies",
-           duracion: "Instantáneo",
-           clases: "Clérigo",
-           informacion: "Tú y hasta 5 criaturas voluntarias os teleportáis instantáneamente a un santuario previamente designado. Si el santuario no ha sido preparado, el conjuro no tiene efecto."
-       },
-       {
-            texto: "Prohibición",
-
-           escuela: "Abjuración (ritual)",
-           componentes: "V,S,M",
-           tiempoDeLanzamiento: "10 minutos",
-           alcance: "Toque",
-           duracion: "1 día",
-           clases: "Clérigo",
-           informacion: "Protege un área de hasta 40,000 pies cuadrados contra teleportación y viajes extraplanares. Puede infligir 5d10 de daño radiante o necrótico a criaturas de tipos específicos. Puede hacerse permanente con lanzamientos repetidos."
-       },
-       {
-            texto: "Rayo solar",
-
-           escuela: "Evocación",
-           componentes: "V,S,M",
-           tiempoDeLanzamiento: "1 acción",
-           alcance: "Personal (60 pies)",
-           duracion: "Concentración 1 minuto",
-           tiradaDeSalvacion: "Constitución mitad",
-           ataque: "Contra salvación 6d8 radiante",
-           clases: "Druida, Hechicero, Mago",
-           informacion: "Emites un rayo de luz en una línea de 60 pies de largo y 5 de ancho. Las criaturas impactadas hacen una salvación de Constitución; si fallan, reciben 6d8 de daño radiante y quedan cegadas. No muertos y limos tienen desventaja en la salvación. Puedes crear un nuevo rayo en cada turno."
-       },
-       {
-            texto: "Relámpago en cadena",
-
-           escuela: "Evocación",
-           componentes: "V,S,M",
-           tiempoDeLanzamiento: "1 acción",
-           alcance: "150 pies",
-           duracion: "Instantáneo",
-           tiradaDeSalvacion: "Destreza mitad",
-           ataque: "Contra salvación 10d8 relámpago",
-           clases: "Hechicero, Mago",
-           informacion: "Un relámpago impacta a un objetivo dentro del alcance y luego se ramifica en tres rayos adicionales que alcanzan hasta tres objetivos más a 30 pies del primero. Cada objetivo debe hacer una tirada de salvación de Destreza, recibiendo 10d8 de daño por relámpago si falla, o la mitad si tiene éxito."
-       },
-       {
-            texto: "Sugestión en masa",
-
-           escuela: "Encantamiento",
-           componentes: "V,M",
-           tiempoDeLanzamiento: "1 acción",
-           alcance: "60 pies",
-           duracion: "24 horas",
-           tiradaDeSalvacion: "Sabiduría niega",
-           clases: "Bardo, Brujo, Hechicero, Mago",
-           informacion: "Sugieres mágicamente una acción a hasta 12 criaturas dentro del alcance. Las criaturas deben realizar una tirada de salvación de Sabiduría para resistirse. La sugerencia debe sonar razonable y no puede ser obviamente dañina. Si se cumplen ciertas condiciones, la sugerencia puede durar toda la duración del conjuro."
-       },
-       {
-            texto: "Urna mágica",
-
-           escuela: "Nigromancia",
-           componentes: "V,S,M",
-           tiempoDeLanzamiento: "1 minuto",
-           alcance: "Personal",
-           duracion: "Hasta disipado",
-           tiradaDeSalvacion: "Carisma niega",
-           clases: "Mago",
-           informacion: "Tu alma abandona tu cuerpo y se traslada a un recipiente especial. Puedes intentar poseer cuerpos de humanoides dentro de 100 pies. Si el objetivo falla una tirada de salvación de Carisma, su alma queda atrapada en la urna y tú tomas el control de su cuerpo. Si la urna se destruye o el conjuro termina, tu alma regresa a tu cuerpo, si está disponible."
-       },
-       {
-            texto: "Viajar con el viento",
-
-           escuela: "Transmutación",
-           componentes: "V,S,M",
-           tiempoDeLanzamiento: "1 minuto",
-           alcance: "30 pies",
-           duracion: "8 horas",
-           clases: "Druida",
-           informacion: "Tú y hasta diez criaturas voluntarias os transformáis en una forma gaseosa con una velocidad voladora de 300 pies. En esta forma, solo pueden esprintar o volver a su forma original, lo que toma 1 minuto. Mientras están en forma gaseosa, tienen resistencia al daño de armas mágicas."
-       },
-       {
-            texto: "Viajar mediante plantas",
-
-           escuela: "Conjuración",
-           componentes: "V,S",
-           tiempoDeLanzamiento: "1 acción",
-           alcance: "10 pies",
-           duracion: "1 asalto",
-           clases: "Druida",
-           informacion: "Crea un vínculo mágico entre una planta Grande o mayor dentro del alcance y otra planta en el mismo plano de existencia que hayas visto antes. Mientras dura el conjuro, cualquier criatura puede caminar a través de la planta objetivo y aparecer en la planta de destino con solo 5 pies de movimiento."
-       },
-       {
-            texto: "Visión veraz",
-
-           escuela: "Adivinación",
-           componentes: "V,S,M",
-           tiempoDeLanzamiento: "1 acción",
-           alcance: "Toque",
-           duracion: "1 hora",
-           clases: "Bardo, Brujo, Clérigo, Hechicero, Mago",
-           informacion: "Otorga a una criatura la capacidad de ver las cosas como realmente son. Mientras dura el conjuro, tiene vista verdadera hasta 120 pies, puede detectar puertas mágicas escondidas y ver en el Plano Etéreo."
-       }
-        ]
+                escuela: "Abjuración",
+                componentes: "V,S,M",
+                tiempoDeLanzamiento: "10 minutos",
+                alcance: "Toque",
+                duracion: "24 horas",
+                clases: "Bardo, Mago",
+                informacion: "Creas una custodia que protege 2500 pies cuadrados de un espacio del suelo (1 cuadrado de 50 pies, 100 cuadrados de 5 pies o 25 cuadrados de 10 pies). El área custodiada puede ser de hasta 20 pies de altura y tener la forma que quieras. Puedes custodiar varios pisos de una fortaleza dividiendo el área entre ellos, siempre y cuando andes por cada una de las áreas contiguas mientras lanzas el conjuro.*Cuando lanzas este conjuro, puedes especificar individuos que no se vean afectados por alguno o por ninguno de los efectos que elijas. También puedes indicar una contraseña que hace que quien la diga en voz alta sea inmune a estos efectos.*Guardas y custodias crea los siguientes efectos dentro del área:*Escaleras. Las escaleras del área custodiada se llenan de telarañas de arriba abajo, como en el conjuro Telaraña. Si estas hebras se queman o se desgarran, vuelven a crecer en 10 minutos mientras dure el conjuro Guardas y custodias. Pasillos. Una bruma invade los pasillos custodiados, lo que hace que sean muy oscuros. Además, en cada intersección o cada ramificación que supone elegir una dirección, hay un 50 % de probabilidades de que una criatura que no seas tú crea que está yendo en dirección opuesta a la que elije. Puertas. Todas las puertas del área custodiada están cerradas mágicamente, como si estuvieran selladas mediante el conjuro Cerradura arcana. Además, puedes cubrir hasta 10 puertas con una ilusión (equivalente a la función de objeto ilusorio del conjuro Ilusión menor) para hacer que parezca una simple sección de la pared. Otros efectos del conjuro. Puedes colocar uno de los siguientes efectos mágicos que elijas dentro del área custodiada de la fortaleza.*→ Colocas Luces danzantes en cuatro pasillos. Puedes designar un patrón simple para que las luces lo repitan mientras dure Guardas y custodias.*→ Colocas Boca mágica en dos lugares.*→ Colocas Nube apestosa en dos lugares. Los vapores aparecen en los lugares que indicas y vuelven a los 10 minutos si el aire los disipa mientras dure Guardas y custodias.*→ Colocas una Ráfaga de viento constante en un pasillo o en una habitación.*→ Colocas Sugestión en un lugar. Selecciona un área de hasta 5 pies cuadrados y cualquier criatura que entre o pase por esa área experimentará la sugestión mentalmente.*Toda el área custodiada irradia magia. Lanzar Disipar magia sobre un efecto específico solo elimina ese efecto si tiene éxito.*Puedes crear una estructura guardada y custodiada permanentemente lanzando este conjuro ahí todos los días del año."
+            },
+            {
+                texto: "Ilusión programada",
+                escuela: "Ilusión",
+                componentes: "V,S,M",
+                tiempoDeLanzamiento: "1 acción",
+                alcance: "120 pies (30 pies)",
+                duracion: "Hasta disipado",
+                clases: "Bardo, Mago",
+                informacion: "Creas una ilusión de un objeto, criatura o algún otro fenómeno visible dentro del alcance que se activa cuando se da una condición específica. La ilusión es impredecible hasta entonces. No debe ser más grande que un cubo de 30 pies, y tú decides cómo se comporta la ilusión y qué sonidos hace cuando lanzas el conjuro. Esta actuación programada puede durar hasta 5 minutos.*Cuando la condición que especificas tiene lugar, la ilusión aparece y se mueve como describiste. Una vez la ilusión termina de actuar, desaparece y permanece inactiva durante 10 minutos. Después de ese tiempo, la ilusión se puede volver a activar.*La condición que la activa puede ser tan general o tan detallada como quieras, aunque se debe basar en condiciones visuales o audibles que ocurran a 30 pies o menos del área. Por ejemplo, puedes crear una ilusión de ti mismo para que aparezca y desaconseje a quien intente abrir una puerta cerrada que lo haga, o establecer que la ilusión se active solo cuando una criatura diga la palabra o la frase correcta.*Interactuar físicamente con la imagen revela que es una ilusión, dado que las cosas pueden atravesarla. Una criatura puede determinar que es una ilusión si examina la imagen usando su acción y supera una prueba de Inteligencia (Investigación) enfrentada a la CD de salvación de tu conjuro. Si lo consigue, puede ver a través de la imagen y cualquier sonido que haga le suena vacío."
+            },
+            {
+                texto: "Invocación instantánea de Drawmij",
+                escuela: "Conjuración (ritual)",
+                componentes: "V,S,M",
+                tiempoDeLanzamiento: "1 minuto",
+                alcance: "Toque",
+                duracion: "Hasta disipado",
+                clases: "Mago",
+                informacion: "Tocas un objeto que pese 10 libras o menos, de 6 pies o menos. El conjuro deja una marca invisible en su superficie e inscribe de manera invisible el nombre del objeto en el zafiro que usas como componente material. Cada vez que lanzas este conjuro, debes usar un zafiro diferente. En cualquier momento, puedes usar tu acción para decir el nombre del objeto y romper el zafiro. El objeto aparece instantáneamente en tu mano independientemente de la distancia física o planar, y el conjuro termina.*Si otra criatura sujeta el objeto o lo lleva puesto, el objeto no se teleporta al romper el zafiro, sino que sabes quién es la criatura que posee el objeto y dónde se encuentra aproximadamente en ese momento.*Disipar magia o un efecto similar que se aplique con éxito en el zafiro termina con el efecto de este conjuro."
+            },
+            {
+                texto: "Mal de ojo",
+                escuela: "Nigromancia",
+                componentes: "V,S",
+                tiempoDeLanzamiento: "1 acción",
+                alcance: "60 pies",
+                duracion: "Concentración 1 minuto",
+                tiradaDeSalvacion: "Sabiduría niega",
+                clases: "Bardo, Brujo, Hechicero, Mago",
+                informacion: "Mientras dura el conjuro, tus ojos se convierten en un vacío negro imbuido con poder maligno. Una criatura de tu elección a 60 pies o menos de ti y que pueda verte debe superar una tirada de salvación de Sabiduría para no quedar afectada por uno de los siguientes efectos de tu elección mientras dura el conjuro. En cada turno hasta que el conjuro termine, puedes usar tu acción para elegir como objetivo a otra criatura, pero no puedes volver a elegir a una criatura que haya superado la tirada de salvación contra este conjuro.*→ Asqueado. El objetivo tiene desventaja en las tiradas de ataque y en las pruebas de característica. Al final de cada uno de sus turnos, puede hacer otra tirada de salvación de Sabiduría. Si tiene éxito, el efecto termina.*→ Aterrado. Aterras al objetivo. En cada uno de sus turnos, la criatura aterrada debe realizar la acción de esprintar y alejarse de ti por la ruta más corta y rápida disponible, a menos que no haya dónde moverse. Si el objetivo se mueve a un lugar que esté al menos a 60 pies de ti y desde donde ya no pueda verte, el efecto termina.*→ Dormido. El objetivo cae inconsciente. Se despierta si recibe daño o si otra criatura utiliza su acción para despertarlo."
+            },
+            {
+                texto: "Mover la tierra",
+                escuela: "Transmutación",
+                componentes: "V,S,M",
+                tiempoDeLanzamiento: "1 acción",
+                alcance: "120 pies",
+                duracion: "Concentración 2 horas",
+                clases: "Druida, Hechicero, Mago",
+                informacion: "Elige un área de terreno dentro del alcance que no tenga más de 40 pies de lado. Puedes remodelar la tierra, la arena o la arcilla del área como quieras mientras dure el conjuro. Puedes aumentar o disminuir la elevación del área, crear o llenar una zanja, alzar o derrumbar un muro o formar una columna. La extensión de tales cambios no puede exceder la mitad del área de la dimensión más larga. Es decir, si afectas a un cuadrado de 40 pies de lado, puedes crear un pilar de hasta 20 pies de altura, aumentar o disminuir la elevación del cuadrado en 20 pies, cavar una zanja de 20 pies de profundidad, etcétera. Estos cambios tardan 10 minutos en completarse.*Cada 10 minutos que pasas concentrado en el conjuro, puedes elegir una nueva área de terreno para afectarla.*Dado que la transformación del terreno ocurre lentamente, normalmente las criaturas que se encuentran dentro del área no quedan atrapadas ni resultan dañadas por el movimiento del suelo.*Este conjuro no puede manipular la piedra natural o las construcciones de piedra. Las rocas y las estructuras cambian para acomodarse al nuevo terreno. Si el modo en que cambias un terreno hace que una estructura sea inestable, esta puede colapsar.*Del mismo modo, este conjuro no afecta directamente al crecimiento de las plantas. La tierra se lleva consigo las plantas al moverse."
+            },
+            {
+                texto: "Muro de espinas",
+                escuela: "Conjuración",
+                componentes: "V,S,M",
+                tiempoDeLanzamiento: "1 acción",
+                alcance: "120 pies",
+                duracion: "Concentración 10 minutos",
+                tiradaDeSalvacion: "Destreza mitad",
+                ataque: "Contra salvación 7d8 perforante",
+                clases: "Druida",
+                informacion: "Creas un muro de arbustos duros, flexibles y enmarañados con espinas afiladas como agujas. El muro aparece dentro del alcance en una superficie sólida y dura mientras lo haga el conjuro. Puedes elegir entre crear un muro de hasta 60 pies de largo, 10 de alto y 5 de ancho o un círculo de 20 pies de diámetro y hasta 20 de alto y 5 de grosor. El muro bloquea la línea de visión.*Cuando el muro aparece, todas las criaturas que se encuentren dentro del área deben hacer una tirada de salvación de Destreza. Si fallan, reciben 7d8 puntos de daño perforante y, si tienen éxito, la mitad.*Una criatura puede moverse por el muro, aunque lenta y dolorosamente. Por cada pie que se desplace, debe gastar 4 pies de movimiento. Además, la primera vez que entre en el muro en un turno o si termina su turno en él, debe hacer una tirada de salvación de Destreza. Si falla, recibe 7d8 puntos de daño cortante y, si tiene éxito, la mitad.*En niveles superiores. Cuando lanzas este conjuro usando un espacio de conjuro de nivel 7 o superior, ambos tipos de daño aumentan en 1d8 puntos por cada nivel por encima de 6."
+            },
+            {
+                texto: "Muro de hielo",
+                escuela: "Evocación",
+                componentes: "V,S,M",
+                tiempoDeLanzamiento: "1 acción",
+                alcance: "120 pies",
+                duracion: "Concentración 10 minutos",
+                clases: "Mago",
+                informacion: "Creas un muro de hielo en una superficie sólida dentro del alcance. Puedes darle la forma de una cúpula semiesférica o una esfera con un radio de hasta 10 pies, o de una superficie lisa de hasta 10 paneles cuadrados de 10 pies. Cada panel debe ser contiguo a otro panel. En cualquiera de estas formas, el muro es de 1 pulgada de ancho y dura mientras lo haga el conjuro.*Si el muro atraviesa el espacio de una criatura cuando aparece, esta es empujada a uno de los lados del muro y debe hacer una tirada de salvación de Destreza. Si falla, recibe 10d6 puntos de daño por frío y, si tiene éxito, la mitad.*Este muro es un objeto que puede resultar dañado y, por tanto, se puede romper. Tiene CA 12 y 30 puntos de golpe por cada sección de 10 pies, y es vulnerable al daño por fuego. Reducir a 0 los puntos de golpe de una sección de 10 pies la destruye y deja detrás de sí una cortina de aire frío en el espacio del muro que ocupaba. Una criatura que se mueva a través de esta cortina por primera vez en un turno debe hacer una tirada de Constitución. Si falla, recibe 5d6 puntos de daño por frío y, si tiene éxito, la mitad.*En niveles superiores. Cuando lanzas este conjuro usando un espacio de conjuro de nivel 7 o superior, el daño que inflige el muro aumenta en 2d6 y el daño que se recibe por traspasar la cortina de aire frío aumenta en 1d6 por cada nivel por encima de 6."
+            },
+            {
+                texto: "Palabra de regreso",
+                escuela: "Conjuración",
+                componentes: "V",
+                tiempoDeLanzamiento: "1 acción",
+                alcance: "5 pies",
+                duracion: "Instantáneo",
+                clases: "Clérigo",
+                informacion: "Tú y hasta 5 criaturas voluntarias que se encuentren a 5 pies o menos de ti os teleportáis instantáneamente a un santuario designado de antemano. Tú y cualquier criatura que teleportas contigo aparecéis en el espacio libre más cercano al lugar que indicaste cuando preparaste tu santuario (ver a continuación). Si lanzas este conjuro sin preparar primero un santuario, el conjuro no tiene efecto.*Debes designar un santuario lanzando este conjuro en un lugar, como en un templo dedicado a tu deidad o muy vinculado a ella. Si intentas lanzar el conjuro de este modo en un área que no esté dedicada a tu deidad, el conjuro no tiene efecto."
+            },
+            {
+                texto: "Prohibición",
+                escuela: "Abjuración (ritual)",
+                componentes: "V,S,M",
+                tiempoDeLanzamiento: "10 minutos",
+                alcance: "Toque",
+                duracion: "1 día",
+                clases: "Clérigo",
+                informacion: "Creas una guardia contra el viaje mágico que protege hasta 40.000 pies cuadrados de un espacio hasta una altura de 30 pies. Mientras dura el conjuro, las criaturas no pueden teleportarse a esta área ni usar portales, como el que crea el conjuro Umbral, para entrar en ella. El conjuro protege el área contra el viaje planar y, por tanto, evita que las criaturas accedan a ella desde el Plano Astral, el Plano Etéreo, las Tierras Salvajes de las Hadas, el Páramo Sombrío o mediante el conjuro Desplazamiento de plano.*Además, el conjuro daña a los siguientes tipos de criaturas que elijas cuando lo lanzas: celestiales, elementales, fatas, infernales y no muertos. Cuando una criatura elegida entra en el área del conjuro por primera vez en un turno o empieza su turno ahí, recibe 5d10 puntos de daño radiante o necrótico (según elijas cuando lances el conjuro).*Cuando lances este conjuro, puedes establecer una contraseña y la criatura que la diga cuando entre en el área no recibirá daño.*El área de este conjuro no puede solaparse con el área de otro conjuro de Interdicción. Si lanzas este conjuro cada 30 días en el mismo lugar, este dura hasta que se disipe y los componentes materiales se consumen en el último lanzamiento."
+            },
+            {
+                texto: "Rayo solar",
+                escuela: "Evocación",
+                componentes: "V,S,M",
+                tiempoDeLanzamiento: "1 acción",
+                alcance: "Personal (60 pies)",
+                duracion: "Concentración 1 minuto",
+                tiradaDeSalvacion: "Constitución mitad",
+                ataque: "Contra salvación 6d8 radiante",
+                clases: "Druida, Hechicero, Mago",
+                informacion: "Un rayo de luz brillante surge de tu mano en una línea de 5 pies de ancho y 60 pies de largo. Todas las criaturas que se encuentren en la línea deben hacer una tirada de salvación de Constitución. Si fallan, reciben 6d8 puntos de daño radiante y quedan cegadas hasta el siguiente turno. Si tienen éxito, reciben la mitad de ese daño y no quedan cegadas. Los no muertos y los limos tienen desventaja en la tirada de salvación.*Puedes crear un nuevo rayo como acción en cualquier turno hasta que termine el conjuro.*Mientras dura el conjuro, una mota de rayo resplandece en tu mano. Emite luz brillante en un radio de 30 pies y luz tenue en 30 pies adicionales. Esta luz es luz del sol."
+            },
+            {
+                texto: "Relámpago en cadena",            
+                escuela: "Evocación",
+                componentes: "V,S,M",
+                tiempoDeLanzamiento: "1 acción",
+                alcance: "150 pies",
+                duracion: "Instantáneo",
+                tiradaDeSalvacion: "Destreza mitad",
+                ataque: "Contra salvación 10d8 relámpago",
+                clases: "Hechicero, Mago",
+                informacion: "Creas un relámpago que forma un arco hacia un objetivo de tu elección que puedas ver dentro del alcance. Después, desde el objetivo surgen otros tres rayos que van hacia sendos objetivos, cada uno de los cuales debe estar a 30 pies o menos del primero. Los objetivos pueden ser criaturas u objetos y solo pueden ser alcanzados por uno de los rayos.*El objetivo debe hacer una tirada de salvación de Destreza. Si falla, recibe 10d8 puntos de daño por relámpago y, si tiene éxito, la mitad.*En niveles superiores. Cuando lanzas este conjuro usando un espacio de conjuro de nivel 7 o superior, un rayo adicional surge del primer objetivo hacia otro por cada nivel por encima de 6."
+            },
+            {
+                texto: "Sugestión en masa",            
+                escuela: "Encantamiento",
+                componentes: "V,M",
+                tiempoDeLanzamiento: "1 acción",
+                alcance: "60 pies",
+                duracion: "24 horas",
+                tiradaDeSalvacion: "Sabiduría niega",
+                clases: "Bardo, Brujo, Hechicero, Mago",
+                informacion: "SSugieres mágicamente un curso de actividad (limitado a una frase o dos) hasta a 12 criaturas de tu elección que puedas ver dentro del alcance y que puedan escucharte y entenderte. Las criaturas que no pueden ser hechizadas son inmunes a este efecto. La sugerencia debe plantearse de tal modo que el curso de la acción suene razonable. Pedirle a una criatura que se apuñale a sí misma, que se arroje sobre una lanza, que se inmole o que haga algo obviamente dañino anula automáticamente el efecto del conjuro.*Cada objetivo debe realizar una tirada de salvación de Sabiduría. Si falla, el objetivo sigue el curso de acción que hayas descrito lo mejor que puede. La acción sugerida puede continuar mientras dure el conjuro. Si se puede completar en poco tiempo, el conjuro acaba cuando el sujeto termina lo que se le pidió que hiciera.*También puedes especificar las condiciones que activarán una tarea especial mientras dure el conjuro. Por ejemplo, puedes sugerir que un grupo de soldados le dé todo su dinero al primer mendigo que se encuentre. Si la condición no se cumple antes de que el conjuro termine, la actividad no se lleva a cabo.*Si tú o cualquiera de tus compañeros daña a una criatura que se encuentre bajo los efectos de este conjuro, este termina para esa criatura.*En niveles superiores. Cuando lanzas este conjuro usando un espacio de conjuro de nivel 7, la duración es de 10 días. Cuando usas un espacio de conjuro de nivel 8, la duración es de 30 días. Cuando usas un espacio de conjuro de nivel 9, la duración es un año y un día."
+            },
+            {
+                texto: "Urna mágica",            
+                escuela: "Nigromancia",
+                componentes: "V,S,M",
+                tiempoDeLanzamiento: "1 minuto",
+                alcance: "Personal",
+                duracion: "Hasta disipado",
+                tiradaDeSalvacion: "Carisma niega",
+                clases: "Mago",
+                informacion: "Tu cuerpo entra en un estado catatónico conforme tu alma lo abandona y entra en el recipiente que has usado como componente material del conjuro. Mientras tu alma reside en el recipiente, percibes lo que te rodea como si estuvieras en el espacio del recipiente. La única acción que puedes hacer es proyectar tu alma hasta 100 pies fuera del recipiente, ya sea volviendo a tu cuerpo vivo (con lo que se termina el conjuro) o intentado poseer el cuerpo de un humanoide.*Puedes intentar poseer a un humanoide que se encuentre a 100 pies o menos de ti y que puedas ver (las criaturas protegidas por el conjuro Protección contra el mal y el bien o Círculo mágico no se pueden poseer). El objetivo debe hacer una tirada de salvación de Carisma. Si falla, tu alma se desplaza a su cuerpo y su alma queda atrapada en el recipiente. Si tiene éxito, el objetivo resiste tus esfuerzos por poseerlo y no puedes volver a intentarlo hasta dentro de 24 horas.*Una vez poseas el cuerpo de una criatura, lo controlas. Tus estadísticas de juego se remplazan por las de la criatura, aunque mantienes tu alineamiento, tus puntuaciones de Inteligencia, Sabiduría y Carisma y los beneficios de tus rasgos de clase. Si el objetivo tiene algún nivel de clase, no puedes usar ninguno de sus rasgos de clase.*Mientras tanto, el alma de la criatura poseída puede percibir desde el recipiente usando sus propios sentidos, pero no puede moverse ni realizar ninguna acción.*Mientras posees un cuerpo, puedes usar tu acción para volver al recipiente si este se encuentra a 100 pies o menos de ti, lo que hace que el alma del huésped vuelva a su cuerpo. Si el cuerpo del huésped muere mientras tú estás dentro, la criatura muere y tú debes hacer una tirada de salvación de Carisma contra la CD de tu propio conjuro. Si tienes éxito, vuelves al recipiente si este se encuentra a 100 pies o menos de ti. Si no, mueres.*Si el recipiente se destruye o si el conjuro termina, tu alma vuelve inmediatamente a tu cuerpo. Si tu cuerpo está a más de 100 pies de ti o está muerto cuando intentas regresar a él, mueres. Si el alma de otra criatura se encuentra en el recipiente cuando este se destruye, su alma regresa a su cuerpo si este está vivo y a 100 pies o menos. Si no, la criatura muere.*Cuando el conjuro termina, el recipiente se destruye"
+            },
+            {
+                texto: "Viajar con el viento",            
+                escuela: "Transmutación",
+                componentes: "V,S,M",
+                tiempoDeLanzamiento: "1 minuto",
+                alcance: "30 pies",
+                duracion: "8 horas",
+                clases: "Druida",
+                informacion: "Tú y hasta diez criaturas voluntarias que puedas ver dentro del alcance asumís una forma gaseosa, como volutas de nube, mientras dura el conjuro. Mientras está en esta forma de nube, una criatura tiene una velocidad volando de 300 pies y tiene resistencia al daño de las armas mágicas. Las únicas acciones que puede realizar en esta forma son la acción de esprintar y volver a su forma original. Volver a la forma original lleva 1 minuto, durante el cual la criatura está incapacitada y no puede moverse. Hasta que termine el conjuro, la criatura puede volver a la forma de nube, lo cual también lleva 1 minuto.*Si una criatura está volando en forma de nube cuando el conjuro termina, esta desciende 60 pies por ronda durante 1 minuto hasta que aterriza de manera segura. Si no puede aterrizar después de 1 minuto, la criatura cae la distancia que falte."
+            },
+            {
+                texto: "Viajar mediante plantas",            
+                escuela: "Conjuración",
+                componentes: "V,S",
+                tiempoDeLanzamiento: "1 acción",
+                alcance: "10 pies",
+                duracion: "1 asalto",
+                clases: "Druida",
+                informacion: "Este conjuro crea un vínculo mágico entre una planta inanimada de tamaño Grande o mayor dentro del alcance y otra planta que esté en el mismo plano de existencia. Debes haber visto o tocado antes la planta de destino al menos una vez. Mientras dure el conjuro, cualquier criatura puede caminar sobre la planta objetivo y salir en la planta de destino usando 5 pies de movimiento."
+            },
+            {
+                texto: "Visión veraz",            
+                escuela: "Adivinación",
+                componentes: "V,S,M",
+                tiempoDeLanzamiento: "1 acción",
+                alcance: "Toque",
+                duracion: "1 hora",
+                clases: "Bardo, Brujo, Clérigo, Hechicero, Mago",
+                informacion: "Este conjuro le da a una criatura voluntaria que toques la capacidad de ver las cosas como realmente son. Mientras dura el conjuro, la criatura tiene vista verdadera, percibe las puertas mágicas escondidas mediante magia y puede ver en el Plano Etéreo, todo ello hasta una distancia de 120 pies."
+            }
+             ]
     },
     {
         id: 8,

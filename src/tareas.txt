@@ -1,3 +1,4 @@
 → Terminar de introducir hechizos con SVGs
 → Ajustar tamaños SVG
 → Desplegable por secciones?
+→ Meter tablas en conjuros que lo necesitan

@@ -2840,6 +2840,7 @@ export const Hechizos = [
         backgroundColor: '#73BCA0',
         conjuros: [
             {
+                icono: "src/assets/nivel6/telequinesis.svg",
                 texto: "Aliado planar",
                 componentes: "V,S",
                 tiempoDeLanzamiento: "10 minutos",
@@ -3170,7 +3171,7 @@ export const Hechizos = [
                 tiradaDeSalvacion: "Destreza mitad",
                 ataque: "Contra salvación 12d6 fuego",
                 clases: "Hechicero y Mago",
-                informacion: "Creas una burbuja de energía ardiente que explota al finalizar el conjuro. Cada turno que la burbuja no explota, su daño aumenta en 1d6. Si una criatura la toca, debe hacer una tirada de salvación de Destreza. Si falla, la burbuja explota; si tiene éxito, puede lanzarla hasta 40 pies. La explosión inflige 12d6 de daño por fuego y afecta a objetos inflamables."
+                informacion: "Un haz de luz amarilla surge de tu dedo índice y se condensa en una burbuja brillante en un punto que elijas dentro del alcance del conjuro. Cuando este termine, ya sea porque pierdes la concentración o porque decides acabarlo, la burbuja explota con un leve estruendo en un estallido de llamas que se propagan en las esquinas. Cada criatura que se encuentre en una esfera de 20 pies de radio cuyo centro sea ese punto debe hacer una tirada de salvación de Destreza. Si falla, recibe daño por fuego igual al daño total acumulado y, si tiene éxito, la mitad. El daño base del conjuro es 12d6. Si al final de tu turno la burbuja aún no ha estallado, el daño aumenta 1d6.*Si una criatura toca la burbuja antes del fin del conjuro, debe hacer una tirada de salvación de Destreza. Si falla, el conjuro termina inmediatamente y la burbuja explota con una llamarada. Si tiene éxito, la criatura puede lanzar la burbuja hasta 40 pies. Cuando esta golpee a una criatura o a un objeto sólido, el conjuro termina y la burbuja explota.*El fuego daña a los objetos que se encuentren dentro del área e incinera a los objetos inflamables que nadie lleve puestos ni transporte.*En niveles superiores. Cuando lanzas este conjuro usando un espacio de conjuro de nivel 8 o superior, el daño base aumenta en 1d6 por cada nivel por encima de 7.."
             },
             {
                 texto: "Conjurar celestial",
@@ -3179,7 +3180,7 @@ export const Hechizos = [
                 alcance: "60 pies",
                 duracion: "Concentración 1 hora",
                 clases: "Clérigo",
-                informacion: "Invocas un celestial de VD 4 o menor en un espacio sin ocupar dentro del alcance. Obedece tus órdenes y desaparece si sus puntos de golpe llegan a 0 o si el conjuro termina. Si lanzas este conjuro con un espacio de nivel 9, puedes invocar un celestial de VD 5."
+                informacion: "Convocas a un celestial con un valor de desafío igual a 4 o menos, el cual aparece en un espacio sin ocupar que puedas ver dentro del alcance. El celestial desaparece cuando sus puntos de golpe se reducen a 0 o cuando el conjuro termina.*El celestial es amistoso hacia ti y tus compañeros mientras dura el conjuro. Tira iniciativa por el celestial, que tiene sus propios turnos. Obedece cualquier orden verbal que le des (no requiere que realices ninguna acción), siempre y cuando no viole su alineamiento. Si no le das ninguna orden, se defiende de criaturas hostiles, pero, si no las hay, no realiza ninguna acción.*El director de juego determina las estadísticas del celestial.*En niveles superiores. Cuando lanzas este conjuro usando un espacio de conjuro de nivel 9, conjuras un celestial con un valor de desafío igual a 5 o menos."
             },
             {
                 texto: "Dedo de la muerte",
@@ -3190,7 +3191,7 @@ export const Hechizos = [
                 tiradaDeSalvacion: "Constitución mitad",
                 ataque: "Contra salvación 7d8+30 necrótico",
                 clases: "Brujo, Hechicero y Mago",
-                informacion: "Lanzas energía negativa sobre una criatura dentro del alcance. Debe hacer una salvación de Constitución o recibir 7d8+30 de daño necrótico. Si un humanoide muere con este conjuro, se levanta como un zombi bajo tu control."
+                informacion: "Envías energía negativa a una criatura que puedas ver dentro del alcance, lo que le provoca un dolor agudo. El objetivo debe realizar una tirada de salvación de Constitución. Si falla, recibe 7d8+30 puntos de daño necrótico y, si tiene éxito, la mitad.*Un humanoide que muera a causa de este conjuro se levanta al principio de tu siguiente turno como un zombi que está bajo tu control de manera permanente y sigue tus órdenes verbales lo mejor que puede."
             },
             {
                 texto: "Desplazamiento entre planos",
@@ -3200,7 +3201,7 @@ export const Hechizos = [
                 duracion: "Instantáneo",
                 tiradaDeSalvacion: "Carisma niega",
                 clases: "Brujo, Clérigo, Druida, Hechicero y Mago",
-                informacion: "Transportas hasta ocho criaturas voluntarias a otro plano de existencia. Puedes especificar un destino o un círculo de teletransporte. También puedes usar este conjuro para desterrar a una criatura enemiga a otro plano si falla una salvación de Carisma."
+                informacion: "Tú y hasta ocho criaturas voluntarias os cogéis de la mano formando un círculo y sois transportadas a otro plano de existencia. Puedes especificar el destino en términos generales, como la Ciudad de Oropel en el Plano Elemental de Fuego o el Palacio de Dispater en el segundo nivel de los Nueve Infiernos, y apareceréis en ese lugar o cerca de él. Si pretendes llegar a la Ciudad de Oropel, por ejemplo, puedes llegar a la calle del Acero, enfrente de la Puerta de las Cenizas, o de cara a la ciudad al otro lado del Mar de Fuego, a discreción del director de juego.*De forma alternativa, si conoces la secuencia de símbolos de un círculo de teletransporte en otro plano de existencia, este conjuro puede llevarte a ese círculo. Si el círculo es demasiado pequeño como para contener a todas las criaturas que transportas, estas aparecen en los espacios sin ocupar que estén más cerca del círculo.*Puedes usar este conjuro para expulsar a una criatura involuntaria a otro plano. Elige una criatura dentro del alcance y haz un ataque de conjuro cuerpo a cuerpo contra él. Si impactas, la criatura debe hacer una tirada de salvación de Carisma. Si falla, es transportada a una localización aleatoria en el plano de existencia que especifiques. Una criatura transportada de este modo, debe encontrar su propio camino de vuelta a tu plano de existencia actual."
             },
             {
                 texto: "Espada de Mordenkainen",
@@ -3210,7 +3211,7 @@ export const Hechizos = [
                 duracion: "Concentración 1 minuto",
                 ataque: "Cuerpo a cuerpo 3d10 fuerza",
                 clases: "Bardo y Mago",
-                informacion: "Creas una espada mágica flotante dentro del alcance. Cuando aparece, haces un ataque de conjuro cuerpo a cuerpo contra un objetivo a 5 pies. Inflige 3d10 de daño por fuerza. Cada turno, puedes usar tu acción adicional para mover la espada y atacar de nuevo."
+                informacion: "Creas un plano de fuerza con forma de espada que planea dentro del alcance. Dura mientras lo haga el conjuro.*Cuando aparece la espada, haces un ataque de conjuro cuerpo a cuerpo contra un objetivo de tu elección que se encuentre a 5 pies o menos de la espada. Si impactas, el objetivo recibe 3d10 puntos de daño por fuerza. Hasta que el conjuro termine, puedes usar una acción adicional en cada uno de tus turnos para mover la espada hasta 20 pies a un lugar donde puedas verla y repetir este ataque contra el mismo objetivo o contra otro diferente"
             },
             {
                 texto: "Espejismo arcano",
@@ -3219,7 +3220,7 @@ export const Hechizos = [
                 alcance: "Visión",
                 duracion: "10 días",
                 clases: "Bardo, Druida y Mago",
-                informacion: "Alteras la apariencia de un terreno de hasta 1 milla cuadrada, modificando su apariencia, sonido y textura. Puedes hacer que un camino parezca un pantano, ocultar precipicios o hacer que estructuras inexistentes parezcan reales. Las criaturas con vista verdadera pueden ver la forma real del terreno."
+                informacion: "Haces que un terreno que se encuentra dentro de una milla cuadrada se parezca, se escuche, se huela o incluso se sienta como otro tipo de terreno. Sin embargo, la forma general del terreno sigue siendo la misma. Un campo abierto o una carretera pueden parecer un pantano, una colina, una grieta o cualquier otro terreno difícil o intransitable. Se puede hacer que un estanque parezca un prado cubierto de hierba, que un precipicio parezca una pendiente suave o que un barranco cubierto de rocas parezca un camino ancho y allanado.*Del mismo modo, puedes alterar la apariencia de estructuras o incluirlas donde no están. El conjuro no disfraza, oculta ni añade criaturas.*La ilusión incluye elementos audibles, visuales, táctiles y olfatorios, así que puede convertir un terreno despejado en un terreno difícil (o viceversa) o dificultar el movimiento a través del área. Cualquier elemento del terreno ilusorio (como una roca o un palo) que se saque del área del conjuro desaparece inmediatamente.*Las criaturas con vista verdadera pueden ver la forma real del terreno; sin embargo, el resto de elementos de la ilusión permanecen, así que, aunque la criatura esté al tanto de la presencia de la ilusión, todavía puede interactuar con ella físicamente."
             },
             {
                 texto: "Excursión etérea",
@@ -3228,7 +3229,7 @@ export const Hechizos = [
                 alcance: "Personal",
                 duracion: "8 horas",
                 clases: "Bardo, Brujo, Clérigo, Hechicero y Mago",
-                informacion: "Te trasladas al Plano Etéreo mientras dure el conjuro. Puedes moverte libremente en cualquier dirección e ignorar obstáculos físicos. No puedes afectar ni ser afectado por criaturas que no estén en el Plano Etéreo. Si el conjuro termina mientras estás dentro de un objeto, recibes daño por fuerza y reapareces en el espacio sin ocupar más cercano."
+                informacion: "Entras en las regiones limítrofes del Plano Etéreo, en la zona en la que se solapa con tu plano actual, y permaneces en la frontera etérea mientras dura el conjuro o hasta que uses una acción para disiparlo. Durante ese tiempo, puedes moverte en cualquier dirección. Si te mueves hacia arriba o hacia abajo, cada pie de movimiento te cuesta un pie adicional. Puedes ver y escuchar el plano del que provienes, pero todo lo que hay ahí parece gris y no puedes ver nada más allá de 60 pies.*Mientras estás en el Plano Etéreo, solo puedes afectar o ser afectado por otras criaturas de ese plano. Las criaturas que no son del Plano Etéreo no pueden percibirte y no pueden interactuar contigo, a menos que tengas una característica especial o magia que se lo permita.*Ignoras todos los objetos y efectos que no están en el Plano Etéreo, lo que te permite moverte a través de los objetos que percibes del plano del que provienes.*Cuando el conjuro termina, vuelves inmediatamente al plano del que provienes en el lugar que ocupas en ese momento. Si ocupas el mismo espacio que un objeto sólido o una criatura cuando esto sucede, pasas inmediatamente al espacio sin ocupar más cercano que puedas y recibes daño por fuerza igual al doble de pies que te hayas movido.*Este conjuro no tiene efecto si lo lanzas mientras estás en el Plano Etéreo o en un plano que no tiene frontera con este, como uno de los Planos Exteriores.*En niveles superiores. Cuando lanzas este conjuro usando un espacio de conjuro de nivel 8 o superior, puedes elegir como objetivos a tres criaturas voluntarias (incluyéndote a ti) por cada nivel por encima de 7. Las criaturas deben estar a 10 pies o menos de ti cuando lances el conjuro."
             },
             {
                 texto: "Invertir gravedad",
@@ -3238,7 +3239,7 @@ export const Hechizos = [
                 duracion: "Concentración 1 minuto",
                 tiradaDeSalvacion: "Destreza niega",
                 clases: "Druida, Hechicero y Mago",
-                informacion: "Creas un área de gravedad invertida en un radio de 50 pies y 100 pies de alto. Las criaturas y objetos en el área caen hacia arriba. Si golpean un objeto sólido, reciben daño por caída. Al finalizar el conjuro, todo lo que flota en la parte superior vuelve a caer."
+                informacion: "Este conjuro invierte la gravedad en un cilindro de 50 pies de radio y 100 pies de alto cuyo centro es un punto dentro del alcance. Todas las criaturas y objetos que no estén sujetos al suelo de ninguna manera en el área cuando lances este conjuro caen hacia arriba hasta lo alto del área. Una criatura puede hacer una tirada de salvación de Destreza para agarrarse a un objeto fijado que pueda alcanzar y evitar la caída.*Si durante esta caída las criaturas y objetos que caen se encuentran algún objeto sólido (como un techo), reciben un golpe como lo harían en una caída normal hacia abajo. Si un objeto o una criatura alcanza lo alto del área sin golpear nada, permanece ahí, oscilando ligeramente, mientras dura el conjuro.*Al final de la duración, los objetos y las criaturas afectados vuelven a caer hacia abajo."
             },
             {
                 texto: "Jaula de fuerza",
@@ -3247,7 +3248,7 @@ export const Hechizos = [
                 alcance: "100 pies",
                 duracion: "1 hora",
                 clases: "Bardo, Brujo y Mago",
-                informacion: "Creas una prisión de fuerza mágica que puede tener forma de jaula (20 pies de lado con barrotes) o caja sólida (10 pies de lado con barrera impenetrable). Las criaturas completamente dentro quedan atrapadas y no pueden salir por medios no mágicos. Si intentan teleportarse o viajar a otro plano, deben hacer una salvación de Carisma. La jaula afecta el Plano Etéreo y no puede ser disipada con Disipar magia."
+                informacion: "Una prisión de fuerza mágica con forma de cubo, inmóvil e invisible, surge alrededor de un área que elijas dentro del alcance. La prisión puede ser una jaula o una caja sólida, según decidas: con forma de jaula puede tener hasta 20 pies de lado y estar hecha con barrotes de media pulgada de grosor separados otra media pulgada entre sí; con forma de caja puede tener hasta 10 pies de lado, crea una barrera sólida que evita que cualquier materia sólida la traspase y bloquea cualquier conjuro que se lance dentro o fuera de esa área.*Cuando lanzas el conjuro, cualquier criatura que esté completamente dentro del área de la jaula queda atrapada. Las criaturas que solo están parcialmente dentro de la jaula y las que son demasiado grandes como para entrar en ella son expulsadas hasta que están completamente fuera de ella.*Una criatura dentro de la jaula no puede salir de ella por medios no mágicos. Si intenta teleportarse o hacer un viaje intraplanar, primero debe hacer una tirada de salvación de Carisma. Si tiene éxito, puede salir. Si no, no puede salir y desperdicia un uso del conjuro o efecto. La jaula también afecta el Plano Etéreo y bloquea el viaje etéreo.*Este conjuro no se puede disipar con Disipar magia."
             },
             {
                 texto: "Magnífica mansión de Mordenkainen",
@@ -3256,7 +3257,7 @@ export const Hechizos = [
                 alcance: "300 pies",
                 duracion: "24 horas",
                 clases: "Bardo y Mago",
-                informacion: "Creas una mansión extradimensional con hasta 50 habitaciones de 10 pies de lado. La mansión tiene comida para 100 personas y 100 sirvientes traslúcidos que pueden realizar tareas simples pero no atacar. Solo las criaturas que determines pueden entrar. Al finalizar el conjuro, las criaturas dentro son expulsadas al exterior."
+                informacion: "Conjuras una vivienda extradimensional dentro del alcance que dura mientras lo haga el conjuro. Tú eliges dónde se encuentra su entrada, que centellea débilmente y tiene 5 pies de ancho y 10 de alto. Tú y cualquier criatura que indiques cuando lanzas el conjuro podéis entrar en la vivienda extradimensional siempre y cuando el portal permanezca abierto. Puedes abrir o cerrar el portal si estás a 30 pies o menos de él. Mientras está cerrado, el portal es invisible.*Más allá del portal se encuentra una casa magnífica con numerosas habitaciones. La atmósfera es limpia, fresca y acogedora. Puede tener la distribución que quieras, pero no puede superar los 50 cubos de 10 pies de lado. El lugar está amueblado y decorado como quieras. Contiene comida suficiente como para servir un banquete de 9 platos a 100 personas y 100 sirvientes traslúcidos de apariencia y atuendo de tu elección que obedecen todas tus órdenes. Cada sirviente puede realizar cualquier tarea que pueda realizar un sirviente humano, salvo atacar o realizar ninguna acción que dañe a otra criatura directamente. Así, estos sirvientes pueden coger cosas, limpiar, hacer arreglos, doblar ropa, encender fuegos, servir comida, servir vino, etcétera. Pueden ir a cualquier lugar de la mansión, pero no marcharse de ella. Los muebles y otros objetos que crea este conjuro se convierten en humo si se sacan de la casa.*Cuando el conjuro termina, cualquier criatura que se encuentre dentro del espacio extradimensional es expulsada al espacio abierto que esté más cerca de la entrada."
             },
             {
                 texto: "Palabra divina",
@@ -3266,7 +3267,7 @@ export const Hechizos = [
                 duracion: "Instantáneo",
                 tiradaDeSalvacion: "Carisma niega",
                 clases: "Clérigo",
-                informacion: "Pronuncias una palabra de poder divino y afecta a las criaturas en función de sus puntos de golpe: 50 o menos: ensordecida (1 min), 40 o menos: ensordecida y cegada (10 min), 30 o menos: ensordecida, cegada y aturdida (1 h), 20 o menos: muere instantáneamente. Celestiales, elementales, fatas e infernales fallan automáticamente y son desterrados a su plano de origen."
+                informacion: "Pronuncias una palabra divina, imbuida con el poder que dio forma al mundo en los albores de la creación. Elige cualquier número de criaturas que puedas ver dentro del alcance. Cada criatura que pueda escucharte debe hacer una tirada de salvación de Carisma. Si falla, sufre un efecto diferente dependiendo de sus puntos de golpe actuales:*→ 50 puntos de golpe o menos: ensordecida durante 1 minuto.*→ 40 puntos de golpe o menos: ensordecida y cegada durante 10 minutos.*→ 30 puntos de golpe o menos: ensordecida, cegada y aturdida durante 1 hora.*→ 20 puntos de golpe o menos: muere instantáneamente.*Independientemente de sus puntos de golpe actuales, los celestiales, elementales, fatas e infernales fallan esta tirada y se ven obligados a volver a su plano de origen (si no están allí ya) y no pueden volver a tu plano actual durante 24 horas por ningún medio salvo por el conjuro Deseo."
             },
             {
                 texto: "Proyectar imagen",
@@ -3275,7 +3276,7 @@ export const Hechizos = [
                 alcance: "2650000 pies",
                 duracion: "Concentración 1 día",
                 clases: "Bardo y Mago",
-                informacion: "Creas una copia ilusoria de ti mismo en un lugar que hayas visto. Puedes verla, oírla y controlarla como si estuvieras allí. Si la ilusión recibe daño, desaparece. Interactuar con ella revela que es una ilusión."
+                informacion: "Creas una copia ilusoria de ti mismo que dura mientras lo hace el conjuro. La copia puede aparecer en cualquier lugar que hayas visto antes dentro del alcance, independientemente de los obstáculos. La ilusión es como tú y suena como tú, pero es intangible. Si recibe daño, desaparece y el conjuro termina.*Puedes usar tu acción para mover esta ilusión hasta el doble de tu velocidad y hacer que gesticule, hable o se comporte como elijas. Imita tus gestos a la perfección.*Puedes ver a través de sus ojos y escuchar a través de sus oídos como si estuvieras en su espacio. Durante tu turno, como acción adicional, puedes pasar de usar sus sentidos a usar los tuyos, o a la inversa. Mientras estás usando sus sentidos, estás cegado y ensordecido respecto a lo que te rodea.*Interactuar físicamente con la imagen revela que es una ilusión, dado que las cosas pueden atravesarla. Una criatura que use su acción para examinar la imagen puede determinar que es una ilusión si supera una prueba de Inteligencia (Investigación) enfrentada a la CD de salvación de tu conjuro. Si lo consigue, puede ver a través de la imagen y cualquier sonido que haga le suena vacío."
             },
             {
                 texto: "Recluir",
@@ -3284,7 +3285,7 @@ export const Hechizos = [
                 alcance: "Toque",
                 duracion: "Hasta disipado",
                 clases: "Mago",
-                informacion: "Ocultas una criatura u objeto voluntario. El objetivo se vuelve invisible y no puede ser detectado por magia. Si es una criatura, entra en suspensión animada y no envejece. Puedes establecer una condición para que el conjuro termine (ejemplo: 'después de 1000 años')."
+                informacion: "Mediante este conjuro, se puede esconder a una criatura voluntaria o un objeto mientras dura el conjuro. Cuando lanzas el conjuro y tocas al objetivo, este se vuelve invisible y no pude ser el objetivo de conjuros de adivinación ni ser percibido mediante sensores de escudriñamiento creados por conjuros de adivinación.*Si el objetivo es una criatura, cae en un estado de suspensión animada. El tiempo deja de pasar para él y no envejece.*Puedes establecer una condición para que el conjuro termine antes, cualquier cosa que elijas, pero debe ocurrir o ser visible a 1 milla o menos del objetivo. Algunos ejemplos son: «después de 1000 años» o «cuando la tarasca despierte». Este conjuro también termina si el objetivo recibe daño."
             },
             {
                 texto: "Regenerar",
@@ -3293,7 +3294,7 @@ export const Hechizos = [
                 alcance: "Toque",
                 duracion: "1 hora",
                 clases: "Bardo, Clérigo y Druida",
-                informacion: "Tocas a una criatura y recupera 4d8+15 puntos de golpe inmediatamente. Mientras dura el conjuro, recupera 1 punto de golpe por turno. Si ha perdido un miembro, se regenera en 2 minutos. Si sostienes el miembro amputado, se une inmediatamente."
+                informacion: "Tocas a una criatura y estimulas su capacidad de curación natural. El objetivo recupera 4d8 + 15 puntos de golpe. Mientras dura el conjuro, el objetivo recupera 1 punto de golpe al principio de cada uno de sus turnos (10 puntos de golpe cada minuto).*Si tiene algún miembro amputado (dedos, piernas, colas, etcétera), se restaura después de 2 minutos. Si tienes el miembro y lo sujetas al muñón, el conjuro hace que se cosa inmediatamente."
             },
             {
                 texto: "Resurrección",
@@ -3302,7 +3303,7 @@ export const Hechizos = [
                 alcance: "Toque",
                 duracion: "Instantáneo",
                 clases: "Bardo y Clérigo",
-                informacion: "Tocas a una criatura muerta hace menos de 100 años y que no haya muerto por edad. Si su alma es libre y voluntaria, regresa a la vida con todos sus puntos de golpe. Cura venenos y enfermedades normales, pero no elimina maldiciones mágicas. El objetivo sufre un penalizador de -4 en ataques y salvaciones, que se reduce con cada descanso prolongado."
+                informacion: "Tocas a una criatura muerta que falleció hace menos de un siglo, que no murió debido a la edad y que no es un no muerto. Si su alma es libre y voluntaria, el objetivo regresa a la vida con todos sus puntos de golpe.*Este conjuro neutraliza cualquier veneno y cura las enfermedades normales que afectaban a la criatura cuando murió. Sin embargo, no elimina las enfermedades mágicas, las maldiciones y similares; si tales efectos no se eliminan antes de lanzar el conjuro, afectan al objetivo cuando este vuelva a la vida.*Este conjuro cierra todas las heridas mortales y restablece todas las partes del cuerpo que falten.*Volver de entre los muertos es una experiencia dura. El objetivo recibe un penalizador de –4 a todas las tiradas de ataque, tiradas de salvación y pruebas de característica. Cada vez que el objetivo termine un descanso prolongado, el penalizador se reduce en 1 hasta que desaparece.*Lanzar este conjuro para restablecer la vida de una criatura que ha estado muerta durante un año o más cuesta mucho. Hasta que no termines un descanso prolongado, no puedes volver a lanzar conjuros y tienes desventaja en todas las tiradas de ataque, pruebas de característica y tiradas de salvación."
             },
             {
                 texto: "Rociada prismática",
@@ -3313,7 +3314,7 @@ export const Hechizos = [
                 tiradaDeSalvacion: "Destreza mitad",
                 ataque: "Contra salvación 10d6",
                 clases: "Hechicero y Mago",
-                informacion: "Lanzas ocho rayos de luz multicolor en un cono de 60 pies. Cada objetivo debe hacer una salvación de Destreza y es afectado por un rayo al azar: Rojo: 10d6 de daño por fuego. Naranja: 10d6 de daño por ácido. Amarillo: 10d6 de daño por relámpago. Verde: 10d6 de daño por veneno. Azul: 10d6 de daño por frío. Añil: Puede quedar petrificado. Violeta: Puede ser transportado a otro plano. Si obtienes un 8 en la tirada, el objetivo es alcanzado por dos rayos."
+                informacion: "Ocho rayos de luz multicolor surgen de tu mano. Cada rayo es de un color diferente y tiene un poder y un propósito diferentes. Todas las criaturas que se encuentren en un cono de 60 pies deben hacer una tirada de salvación de Destreza. Por cada objetivo, tira 1d8 para determinar qué rayo de color lo afecta.*→ Rojo. El objetivo recibe 10d6 puntos de daño por fuego si falla la salvación o la mitad si tiene éxito.*→ Naranja. El objetivo recibe 10d6 puntos de daño por ácido si falla la salvación o la mitad si tiene éxito.*→ Amarillo. El objetivo recibe 10d6 puntos de daño por relámpago si falla la salvación o la mitad si tiene éxito.*→ Verde. El objetivo recibe 10d6 puntos de daño por veneno si falla la salvación o la mitad si tiene éxito.*→ Azul. El objetivo recibe 10d6 puntos de daño por frío si falla la salvación o la mitad si tiene éxito.*→ Añil. Si falla la salvación, el objetivo queda apresado y debe hacer una tirada de salvación de Constitución al final de cada uno de sus turnos. Si supera la prueba tres veces, el conjuro termina; si falla tres veces, se convierte en piedra permanentemente y queda sujeto al estado petrificado. No es necesario que los éxitos y los fallos sean consecutivos; lleva la cuenta de ambos hasta que el objetivo consiga tres de cualquier tipo.*→ Violeta. Si falla la salvación, el objetivo queda cegado y debe hacer una tirada de salvación de Sabiduría al principio de tu siguiente turno. Si tiene éxito, el estado cegado termina; si falla, la criatura es transportada a otro plano de existencia que elija el director de juego y ya no está cegada. (Normalmente, una criatura que está en un plano que no es su plano natal es expulsada a su hogar, mientras que otras criaturas son transportadas a los planos Astral o Etéreo).*→ Especial. El objetivo es alcanzado por dos rayos. Tira dos dados más y vuelve a tirar los resultados de 8."
             },
             {
                 texto: "Símbolo",
@@ -3322,7 +3323,7 @@ export const Hechizos = [
                 alcance: "Toque",
                 duracion: "Hasta disipado o disparado",
                 clases: "Bardo, Clérigo y Mago",
-                informacion: "Inscribes un glifo mágico en una superficie u objeto. Cuando una criatura lo activa, libera un efecto mágico en un radio de 60 pies. Puedes elegir: Aturdimiento (1 minuto), Desacuerdo (desventaja en ataques y pruebas), Dolor (incapacitado 1 min), Dormir (inconsciente 10 min), Locura (no puede actuar), Miedo (asustada y huye), Muerte (10d10 de daño necrótico), Sin esperanza (no puede atacar ni usar efectos dañinos)."
+                informacion: "Cuando lanzas este conjuro, inscribes un glifo dañino en una superficie (como una sección del suelo, una pared o una mesa) o en un objeto que se pueda cerrar para ocultar el glifo (como un libro, un pergamino o un cofre del tesoro). Si eliges una superficie, el glifo puede cubrir un área de superficie de no más de 10 pies de diámetro. Si eliges un objeto, ese objeto debe permanecer en su lugar; si se mueve a más de 10 pies de donde lanzaste este conjuro, el glifo se rompe y el conjuro termina sin activarse.*El glifo es prácticamente invisible: para encontrarlo es necesaria una prueba de Inteligencia (Investigación) enfrentada a la CD de salvación de tu conjuro.*Tú decides qué activa el glifo cuando lanzas el conjuro. Las activaciones más comunes de los glifos inscritos en una superficie son tocar o pisar el glifo, quitar otro objeto que lo cubre, aproximarse a una cierta distancia o manipular el objeto que lo tiene. Las de los glifos inscritos en objetos son abrir el objeto, acercase a él a una distancia determinada o ver o leer el glifo.*Más adelante puedes refinar la activación para que el conjuro solo se active bajo ciertas circunstancias o de acuerdo a las características físicas de una criatura (como el peso o el tamaño) o al tipo de criatura (por ejemplo, se puede establecer que la custodia afecta a sagas o a cambiaformas). También puedes especificar criaturas que no activen el glifo, como las que dicen una contraseña determinada.*Cuando inscribas el glifo, elige una de las siguientes opciones como efecto. Una vez se activa, el glifo brilla, creando una esfera de 60 pies de radio con luz tenue durante 10 minutos, después de lo cual el conjuro termina. Todas las criaturas que se encuentren en la esfera cuando el glifo se active se convierten en el objetivo de este efecto, al igual que una criatura que entre en la esfera por primera vez durante un turno o termine su turno en ella.*→ Aturdimiento. Cada objetivo debe superar una tirada de salvación de Sabiduría para no quedar aturdido durante 1 minuto.*→ Desacuerdo. Cada objetivo debe hacer una tirada de salvación de Constitución. Si falla, discute y riñe con otras criaturas durante 1 minuto. Durante ese tiempo, es incapaz de comunicarse de manera efectiva y tiene desventaja en las tiradas de ataque y en las pruebas de característica.*→ Dolor. Cada objetivo debe hacer una tirada de salvación de Constitución y se queda incapacitado con un dolor insoportable durante 1 minuto si falla la salvación.*→ Dormir. Cada objetivo debe superar una tirada de salvación de Sabiduría para no quedar inconsciente durante 10 minutos. El objetivo se despierta si recibe daño o si alguien usa una acción para sacudirlo o pegarle para que se despierte.*→ Locura. Cada objetivo debe realizar una tirada de salvación de Inteligencia. Si falla, el objetivo se vuelve loco durante 1 minuto. Una criatura loca no puede realizar acciones, entender lo que dicen otras criaturas ni leer, y solo dice galimatías. El director de juego controla su movimiento, el cual es errático.*→ Miedo. Cada objetivo debe superar una tirada de salvación de Sabiduría para no quedar asustada durante 1 minuto. Mientras está asustado, el objetivo tira cualquier cosa que esté sujetando y, si puede, debe alejarse al menos 30 pies del glifo en cada uno de sus turnos.*→ Muerte. Cada objetivo debe hacer una tirada de salvación de Constitución; si falla, recibe 10d10 puntos de daño necrótico y, si tiene éxito, la mitad.*→ Sin esperanza. Cada objetivo debe realizar una tirada de salvación de Carisma. Si falla, el objeto está abrumado por la desesperación durante 1 minuto. Durante este tiempo, no puede atacar a ninguna criatura ni elegirla como objetivo de rasgos, conjuros u otros efectos mágicos dañinos."
             },
             {
                 texto: "Simulacro",
@@ -3331,7 +3332,7 @@ export const Hechizos = [
                 alcance: "Toque",
                 duracion: "Hasta disipado",
                 clases: "Mago",
-                informacion: "Creas un duplicado ilusorio de una bestia o humanoide. Tiene la mitad de los puntos de golpe del original y usa sus estadísticas. No puede subir de nivel ni recuperar espacios de conjuro. Puede ser reparado a razón de 100 po por punto de golpe. Solo puede haber un simulacro activo a la vez."
+                informacion: "Le das forma a un duplicado ilusorio de una bestia o de un humanoide que está dentro del alcance durante todo el tiempo que dure el lanzamiento del conjuro. El duplicado es una criatura, en parte real y en parte formada por hielo o nieve, que puede realizar acciones y ser afectada igual que una criatura normal. Su apariencia es igual que la del original, pero su máximo de puntos de golpe es la mitad que el de la criatura y no tiene equipo. Por otro lado, la ilusión usa todas las estadísticas de la criatura a la que duplica.*El simulacro es amistoso hacia ti y las criaturas que indiques. Obedece las órdenes que le des, se mueve y actúa de acuerdo a tus deseos y actúa en tu turno de combate. Al simulacro le falta la capacidad de aprender y volverse más poderoso, así que no sube de nivel ni aumenta otras características, ni tampoco recupera los espacios de conjuro gastados.*Si el simulacro recibe daño, puedes repararlo en un laboratorio alquímico usando hierbas y minerales raros de 100 po de valor por cada punto de golpe a recuperar. El simulacro dura hasta que sus puntos de golpe se reduzcan a 0, momento en el que se convierte en nieve y se derrite inmediatamente.*Si lanzas este conjuro de nuevo, cualquier duplicado activo que hayas creado con él se destruye de manera inmediata."
             },
             {
                 texto: "Teletransporte",
@@ -3340,7 +3341,7 @@ export const Hechizos = [
                 alcance: "10 pies",
                 duracion: "Instantáneo",
                 clases: "Bardo, Hechicero y Mago",
-                informacion: "Te transportas instantáneamente junto a hasta 8 criaturas voluntarias u un objeto de hasta 10 pies de lado. El éxito depende de tu familiaridad con el destino. Si fallas, puedes aparecer en un área similar, lejos del objetivo o sufrir un percance y recibir daño por fuerza."
+                informacion: "Este conjuro te transporta instantáneamente a un destino que selecciones a ti y a otras 8 criaturas voluntarias de tu elección que puedas ver dentro del alcance, o a un único objeto que puedas ver dentro del alcance. Si el objetivo es un objeto, debe caber en un cubo de 10 pies y no puede llevarlo ninguna criatura involuntaria.*Debes conocer el destino, que debe estar en el mismo plano de existencia que tú. Tu familiaridad con el destino determina si llegas a él con éxito. El director de juego debe tirar 1d100 y consultar la tabla.*CONSULTAR TABLA EN EL MANUAL"
             },
             {
                 texto: "Tormenta de fuego",
@@ -3351,7 +3352,7 @@ export const Hechizos = [
                 tiradaDeSalvacion: "Destreza mitad",
                 ataque: "Contra salvación 7d10 fuego",
                 clases: "Clérigo, Druida y Hechicero",
-                informacion: "Creas una tormenta de fuego en hasta diez cubos de 10 pies conectados. Las criaturas en el área hacen una tirada de salvación de Destreza. Si fallan, reciben 7d10 de daño por fuego, o la mitad si tienen éxito. Puedes elegir que las plantas en la zona no sean dañadas."
+                informacion: "Una tormenta compuesta por una cortina de llamas crepitantes aparece en un lugar que elijas dentro del alcance. El área de la tormenta está compuesta por hasta diez cubos de 10 pies, que puedes distribuir a voluntad. Cada cubo debe tener al menos una cara adyacente a la cara de otro cubo. Cada criatura que se encuentre dentro del área debe hacer una tirada de salvación de Destreza. Si falla, recibe 7d10 puntos de daño por fuego o, si tiene éxito, la mitad.*El fuego daña a los objetos que se encuentren dentro del área e incinera a los objetos inflamables que nadie lleve puestos ni transporte. Si quieres, las plantas del área no se ven afectadas por el conjuro."
             }
         ]
     },

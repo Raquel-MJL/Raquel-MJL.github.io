@@ -1,3 +1,3 @@
 → Terminar de introducir hechizos con SVGs
-→ Poner fondo fijo 
+→ Ajustar tamaños SVG
 → Desplegable por secciones?

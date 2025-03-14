@@ -900,7 +900,7 @@ export const Hechizos = [
     {
         id: 3,
         nivel: "Nivel 2",
-        backgroundColor: '#B0D7C3',
+        backgroundColor: '#C3E2D4',
         conjuros: [
 
             {
@@ -1569,7 +1569,7 @@ export const Hechizos = [
     {
         id: 4,
         nivel: "Nivel 3",
-        backgroundColor: '#74B995',
+        backgroundColor: '#AFD9C7',
         conjuros: [
             {
                 icono: "src/assets/nivel3/acelerar.svg",
@@ -2089,7 +2089,7 @@ export const Hechizos = [
     {
         id: 5,
         nivel: "Nivel 4",
-        backgroundColor: '#74B995',
+        backgroundColor: '#9BCFBA',
         conjuros: [
             {
                 texto: "Adivinación",
@@ -2391,7 +2391,7 @@ export const Hechizos = [
     {
         id: 6,
         nivel: "Nivel 5",
-        backgroundColor: '#74B995',
+        backgroundColor: '#87C6AD',
         conjuros: [
             {
                 texto: "Alterar los recuerdos",
@@ -2768,7 +2768,7 @@ export const Hechizos = [
     {
         id: 7,
         nivel: "Nivel 6",
-        backgroundColor: '#74B995',
+        backgroundColor: '#73BCA0',
         conjuros: [
             {
                 texto: "Aliado planar",
@@ -3101,7 +3101,7 @@ export const Hechizos = [
     {
         id: 8,
         nivel: "Nivel 7",
-        backgroundColor: '#74B995',
+        backgroundColor: '#5FB393',
         conjuros: [
             {
                 texto: "Bola de fuego de explosión retardada",
@@ -3300,7 +3300,7 @@ export const Hechizos = [
     {
         id: 9,
         nivel: "Nivel 8",
-        backgroundColor: '#74B995',
+        backgroundColor: '#4BA986',
         conjuros: [
             {
                 texto: "Antipatía/simpatía",
@@ -3460,7 +3460,7 @@ export const Hechizos = [
     {
         id: 10,
         nivel: "Nivel 9",
-        backgroundColor: '#74B995',
+        backgroundColor: '#478D68',
         conjuros: [
             {
                 texto: "Cautiverio",

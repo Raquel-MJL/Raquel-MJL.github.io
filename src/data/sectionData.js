@@ -297,7 +297,7 @@ export const Hechizos = [
     {
         id: 2,
         nivel: "Nivel 1",
-        backgroundColor: '#D7EBE1',
+        backgroundColor: '#9FB8AC',
         conjuros: [
 
             {
@@ -899,7 +899,7 @@ export const Hechizos = [
     {
         id: 3,
         nivel: "Nivel 2",
-        backgroundColor: '#C3E2D4',
+        backgroundColor: '#9FCCBF',
         conjuros: [
 
             {
@@ -1568,7 +1568,7 @@ export const Hechizos = [
     {
         id: 4,
         nivel: "Nivel 3",
-        backgroundColor: '#AFD9C7',
+        backgroundColor: '#9FD7DC',
         conjuros: [
             {
                 icono: "src/assets/nivel3/acelerar.svg",
@@ -2088,7 +2088,7 @@ export const Hechizos = [
     {
         id: 5,
         nivel: "Nivel 4",
-        backgroundColor: '#9BCFBA',
+        backgroundColor: '#7fb3d5',
         conjuros: [
             {
                 
@@ -2422,7 +2422,7 @@ export const Hechizos = [
     {
         id: 6,
         nivel: "Nivel 5",
-        backgroundColor: '#87C6AD',
+        backgroundColor: '#d2b4de',
         conjuros: [
             {
                 icono: "src/assets/nivel5/alterarRecuerdos.svg",
@@ -2837,7 +2837,7 @@ export const Hechizos = [
     {
         id: 7,
         nivel: "Nivel 6",
-        backgroundColor: '#73BCA0',
+        backgroundColor: '#f9e79f',
         conjuros: [
             {
                 icono: "src/assets/nivel6/aliadoPlanar.svg",
@@ -3190,7 +3190,7 @@ export const Hechizos = [
     {
         id: 8,
         nivel: "Nivel 7",
-        backgroundColor: '#5FB393',
+        backgroundColor: '#edbb99',
         conjuros: [
             {
                 icono: "src/assets/nivel7/bolaFuegoRetardada.svg",
@@ -3409,7 +3409,7 @@ export const Hechizos = [
     {
         id: 9,
         nivel: "Nivel 8",
-        backgroundColor: '#4BA986',
+        backgroundColor: '#f5b7b1',
         conjuros: [
             {
                 icono: "src/assets/nivel8/antipatiaSimpatia.svg",
@@ -3585,7 +3585,7 @@ export const Hechizos = [
     {
         id: 10,
         nivel: "Nivel 9",
-        backgroundColor: '#478D68',
+        backgroundColor: '#d98880',
         conjuros: [
             {
                 icono: "src/assets/nivel9/cambiarForma.svg",

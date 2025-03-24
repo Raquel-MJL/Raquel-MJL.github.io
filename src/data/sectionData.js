@@ -1263,18 +1263,6 @@ export const Hechizos = [
             },
 
             {
-                icono: "src/assets/nivel2/localizarAnimalesPlantas.svg",
-                texto: "Localizar animales o plantas",
-                componentes: "V, S, M (Pelaje de sabueso)",
-                tiempoDeLanzamiento: "1 acción",
-                alcance: "Personal",
-                duracion: "Instantáneo",
-                ataque: "--",
-                clases: "Bardo, Druida y Explorador",
-                informacion: "Describe o nombra un tipo de bestia o planta específica. Al concentrarte en la voz de la naturaleza que te rodea, conoces la dirección y la distancia de la criatura o planta de ese tipo más cercana que se encuentre a 5 millas o menos, si hay alguna.",
-            },
-
-            {
                 icono: "src/assets/nivel2/localizarObjeto.svg",
                 texto: "Localizar objeto",
                 componentes: "V, S, M (Rama)",

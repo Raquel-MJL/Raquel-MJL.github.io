@@ -4,7 +4,7 @@ import react from '@vitejs/plugin-react';
 // https://vitejs.dev/config/
 export default defineConfig({
 
-  base: '/hechizosDND/', //Intentando configurar GHPages
+  base: '/', //Intentando configurar GHPages
   build: {
     outDir: 'dist',
   },
